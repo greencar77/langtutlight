@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="langtut.css" type="text/css">
+    <title>quiz</title>
+    <!--data-->
+    <script src="data/w_a.js"></script>
+    <script src="data/w_b.js"></script>
+    <script src="data/word_final.js"></script>
+    <script src="data/sentence_final.js"></script>
+    <!--functionality-->
+    <script src="common.js"></script>
+    <script src="quiz.js"></script>
+</head>
+<body onLoad="init()">
+
+<button type="button" id="btnNext" onclick="nextQuestion()">Next</button> from <span id="questionCount"></span> <span id="stats"></span>
+
+<div id="answerSection">
+    <span id="answer"></span>
+    <div id="passedFailedSection">
+        <button type="button" id="btnPassed" onclick="markPassed()">Passed</button>&nbsp;&nbsp;&nbsp;<button type="button" id="btnFailed" onclick="markFailed()">Failed</button><br/>
+    </div>
+</div>
+
+<div id="questionSection">
+    <div>
+        <span id="question"></span>
+    </div>
+
+    <div id="showAnswerSection">
+        <button type="button" id="btnAnswer" onclick="showAnswer()">Show answer</button><br/>
+    </div>
+</div>
+
+<div id="answerDetails">
+Word: <span id="questionWord"></span><br/>
+Sentence id: <span id="answerId"></span><br/>
+</div>
+
+<br/>
+<a href="index.html">[Index]</a><br/>
+
+</body>
+</html>
