@@ -66,14 +66,21 @@ function showAnswer() {
 
     answeredCount++;
     refreshStats();
+    fillAdditionalInfo();
+}
 
+function fillAdditionalInfo() {
     let e = document.getElementById('answer');
     e.textContent = question.v;
+
     e = document.getElementById('answerId');
     e.textContent = question.id;
 
-    let qw = document.getElementById('questionWord');
-    qw.innerHTML = wordLine(questionWord);
+    e = document.getElementById('questionWord');
+    e.innerHTML = wordLine(questionWord);
+
+    e = document.getElementById('comment');
+    e.innerHTML = question.com;
 }
 
 function markPassed() {

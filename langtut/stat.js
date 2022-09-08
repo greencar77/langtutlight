@@ -31,7 +31,23 @@ function addStatistics() {
     ol.appendChild(byTypeOl);
 
     li = document.createElement('li');
+    li.textContent = 'Nouns (n): ' + words.filter(w => w.t == 'n').length;
+    byTypeOl.appendChild(li);
+
+    li = document.createElement('li');
+    li.textContent = 'Verbs (v): ' + words.filter(w => w.t == 'v').length;
+    byTypeOl.appendChild(li);
+
+    li = document.createElement('li');
     li.textContent = 'Phrasal verbs (pv): ' + words.filter(w => w.t == 'pv').length;
+    byTypeOl.appendChild(li);
+
+    li = document.createElement('li');
+    li.textContent = 'Adjectives (a): ' + words.filter(w => w.t == 'a').length;
+    byTypeOl.appendChild(li);
+
+    li = document.createElement('li');
+    li.textContent = 'Adverbs (av): ' + words.filter(w => w.t == 'av').length;
     byTypeOl.appendChild(li);
 
     li = document.createElement('li');
@@ -39,7 +55,7 @@ function addStatistics() {
     byTypeOl.appendChild(li);
 
     li = document.createElement('li');
-    li.textContent = 'Adjectives (a): ' + words.filter(w => w.t == 'a').length;
+    li.textContent = 'Undefined type: ' + words.filter(w => !w.t).length;
     byTypeOl.appendChild(li);
 
     li = document.createElement('li');

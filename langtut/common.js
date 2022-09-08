@@ -35,6 +35,7 @@ function wordLine(word) {
             + (word.tag? ' (tag=' + word.tag + ')' : '')
             + ' (p=' + word.p + ')'
             + ' (sentences=' + word.sentences.length + ')'
+            + ' (translation=' + word.trans + ')'
             + ' <a href="https://www.onelook.com/?w=' + word.v + '">[OL]</a>'
             + ' <a href="https://letonika.lv/groups/default.aspx?q=' + word.v + '&r=10331062&g=2">[LET]</a>'
             ;
