@@ -2,6 +2,7 @@ let wordsFinal = [
 {
   "id": "2981813",
   "v": "lock out",
+  "t": "pv",
   "trans": "izslēgt, izmest aiz borta",
 },
 {
@@ -173,6 +174,7 @@ let wordsFinal = [
   "v": "dodge",
   "t": "v",
   "trans": "laipot",
+  "p": "+1",
 },
 {
   "id": "2850529",
