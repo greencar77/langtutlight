@@ -1,4 +1,19 @@
 @@
+id:2981923
+v:She locked him out of the house after an argument.
+v-2981813:She %izmeta no mājas, pārmeta pār bortu% him %% of the house after an argument.
+com:https://www.macmillandictionary.com/dictionary/american/lock-out
+@@
+id:2978506
+v:Isaac Newton was not known for his generosity of spirit, and his disdain for his rivals was legendary.
+v-2978544:Isaac Newton was not known for his generosity of spirit, and his %nicinājums% for his rivals was legendary.
+com:https://www.quantamagazine.org/how-isaac-newton-discovered-the-binomial-power-series-20220831/
+@@
+id:2978410
+v:It was an important finding, but it turns out there are better ways to approximate pi by means of an infinite sum, as Newton himself soon discovered after this initial foray into these kinds of infinite sums, now called power series.
+v-2978440:It was an important finding, but it turns out there are better ways to approximate pi by means of an infinite sum, as Newton himself soon discovered after this initial %iebrukums, ielaušanās% into these kinds of infinite sums, now called power series.
+com:https://www.quantamagazine.org/how-isaac-newton-discovered-the-binomial-power-series-20220831/
+@@
 id:2832319
 v:Borges’ last insight regarding the Library is cloaked in a footnote adorning the conclusion of the last sentence.
 v-2832358:Borges’ last insight regarding the Library is %aizslēpts% in a footnote adorning the conclusion of the last sentence.

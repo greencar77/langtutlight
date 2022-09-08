@@ -1,5 +1,23 @@
 let wordsFinal = [
 {
+  "id": "2981813",
+  "v": "lock out",
+  "trans": "izslēgt, izmest aiz borta",
+},
+{
+  "id": "2978544",
+  "v": "disdain",
+  "t": "n",
+  "trans": "nicinājums",
+  "p": "+1",
+},
+{
+  "id": "2978440",
+  "v": "foray",
+  "trans": "iebrukums",
+  "p": "+1",
+},
+{
   "id": "2832358",
   "v": "cloak",
   "p": "+1",
