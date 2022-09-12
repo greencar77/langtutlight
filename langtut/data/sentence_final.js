@@ -1,5 +1,52 @@
 let sentencesFinal = [
 {
+  "id": "2912153",
+  "v": "Housekeeping is repetitious and unnecessary drudgery; as an engineer it offended me.",
+  "v-2912310": "Housekeeping is repetitious and unnecessary %truls darbs%; as an engineer it offended me.",
+  "tag": "summer",
+  "com": "ch2 p33/174",
+},
+{
+  "id": "2998720",
+  "v": "'Bag? Cat?' I said wonderingly. 'My friend, I think you’ve come down with an acute figure of speech.'",
+  "tag": "summer",
+  "v-2999139": "'Bag? Cat?' I said wonderingly. 'My friend, I think you’ve %spēcīgi uzkritis, bladāc!% with an acute figure of speech.'",
+  "com": "The Door unto Summer Ch1",
+},
+{
+  "id": "2953032",
+  "v": "I don't think you can fight a crowd that's bent on cruelty. And no - she wasn't sorry. She took pity, but she wasn't sorry.",
+  "v-2953308": "I don't think you can fight a crowd that's bent on cruelty. And no - she wasn't sorry. She %juta līdzi%, but she wasn't sorry.",
+  "tag": "dome",
+  "com": "p775",
+},
+{
+  "id": "2832319",
+  "v": "Borges’ last insight regarding the Library is cloaked in a footnote adorning the conclusion of the last sentence.",
+  "v-2832358": "Borges’ last insight regarding the Library is %aizslēpts% in a footnote adorning the conclusion of the last sentence.",
+  "com": "ch3 p45 Bloch Babel",
+},
+{
+  "id": "2887322",
+  "v": "He hung up before Roger could recommence his whiny shit and for a moment just stood there, fuming.",
+  "v-2887209": "He hung up before Roger could %sākt no jauna% his whiny shit and for a moment just stood there, fuming.",
+  "v-2887507": "He hung up before Roger could recommence his %žēlabaino% shit and for a moment just stood there, fuming.",
+  "tag": "dome",
+  "com": "p564",
+},
+{
+  "id": "2901551",
+  "v": "You'll want locks on the back wheels, and if you are purchasing a jogging stroller, it's always a good idea to have a wrist tether, as well, to avoid runaway strollers.",
+  "v-2901241": "You'll want locks on the back wheels, and if you are purchasing a jogging stroller, it's always a good idea to have a wrist %siksna ar stiprinājumu%, as well, to avoid runaway strollers.",
+  "com": "https://sentence.yourdictionary.com/tether",
+},
+{
+  "id": "2901113",
+  "v": "LATCH seats are secured using integrated tethers on the base of the seat.",
+  "v-2901241": "LATCH seats are secured using integrated %siksnas/siksnas ar karabīni% on the base of the seat.",
+  "com": "https://www.autodeal.com.ph/articles/car-features/difference-isofix-child-seat-anchors-make#:~:text=LATCH%20seats%20are%20secured%20using,clip%20on%20the%20ISOFIX%20anchorages.&text=Seatbelts%20have%20their%20own%20standard,be%20too%20short%20for%20them.",
+},
+{
   "id": "2981923",
   "v": "She locked him out of the house after an argument.",
   "v-2981813": "She %izmeta no mājas, pārmeta pār bortu% him %% of the house after an argument.",

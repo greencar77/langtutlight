@@ -1,5 +1,49 @@
 let wordsFinal = [
 {
+  "id": "2912310",
+  "v": "drudgery",
+  "t": "n",
+  "trans": "truls darbs",
+  "tag": "summer",
+  "p": "+1",
+},
+{
+  "id": "2999139",
+  "v": "come down",
+  "t": "pv",
+  "p": "+1",
+  "tag": "summer",
+  "trans": "sakritis (sniegs)",
+},
+{
+  "id": "2953308",
+  "v": "take pity on somebody",
+  "t": "i",
+  "trans": "just līdzi",
+  "tag": "dome",
+},
+{
+  "id": "2832358",
+  "v": "cloak",
+  "p": "+1",
+  "trans": "aizslēpt aiz kaut kā cita",
+},
+{
+  "id": "2887507",
+  "v": "whiny",
+  "trans": "žēlabains",
+  "p": "+1",
+  "t": "a",
+  "tag": "dome",
+},
+{
+  "id": "2901241",
+  "v": "tether",
+  "t": "n",
+  "trans": "siksna ar stiprinājumu, strape",
+  "p": "+1",
+},
+{
   "id": "2981813",
   "v": "lock out",
   "t": "pv",
@@ -161,6 +205,7 @@ let wordsFinal = [
   "v": "consider",
   "trans": "pieļaut",
   "tag": "dome",
+  "t": "v",
 },
 {
   "id": "2823037",
