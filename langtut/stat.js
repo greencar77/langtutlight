@@ -1,5 +1,7 @@
 "use strict";
 
+const bookTag = ['dome', 'summer'];
+
 function init() {
     prepareData();
 
@@ -62,9 +64,22 @@ function addStatistics() {
     li.textContent = 'Words without sentences: ' + words.filter(w => w.sentences.length == 0).length;
     ol.appendChild(li);
 
-    li = document.createElement('li');
-    li.textContent = 'Words - dome: ' + words.filter(w => w.tag && w.tag.includes('dome')).length;
-    ol.appendChild(li);
+    books(ol);
 
     container.appendChild(ol);
+}
+
+function books(parent) {
+
+    let bookLi = document.createElement('li');
+    bookLi.textContent = 'Books';
+    parent.appendChild(bookLi);
+
+    let ol = document.createElement('ol');
+    bookTag.forEach(bt => {
+        let li = document.createElement('li');
+        li.textContent = bt + ' ' + words.filter(w => w.tag && w.tag.includes(bt)).length;
+        ol.appendChild(li);
+    });
+    parent.appendChild(ol);
 }
