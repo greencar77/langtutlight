@@ -84,5 +84,6 @@ function showWords(words) {
 function wordLineCandidate(wordCandidate) {
     return ' <a href="https://www.onelook.com/?w=' + wordCandidate + '">[OL]</a>'
             + ' <a href="https://letonika.lv/groups/default.aspx?q=' + wordCandidate + '&r=10331062&g=2">[LET]</a>'
+            + ' <a href="https://sentence.yourdictionary.com/' + wordCandidate + '">[Web4]</a>'
             ;
 }

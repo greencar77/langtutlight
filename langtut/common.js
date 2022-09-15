@@ -38,6 +38,7 @@ function wordLine(word) {
             + ' (translation=' + word.trans + ')'
             + ' <a href="https://www.onelook.com/?w=' + word.v + '">[OL]</a>'
             + ' <a href="https://letonika.lv/groups/default.aspx?q=' + word.v + '&r=10331062&g=2">[LET]</a>'
+            + ' <a href="https://sentence.yourdictionary.com/' + word.v + '">[Web4]</a>'
             ;
 }
 
