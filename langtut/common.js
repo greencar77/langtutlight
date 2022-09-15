@@ -6,6 +6,8 @@ let sentenceMap;
 function prepareData() {
     words = words.concat(wordsFinal);
     sentences = sentences.concat(sentencesFinal);
+    checkIds(words);
+    checkIds(sentences);
     wordMap = new Map(words.map(v => [v.id, v]));
     sentenceMap = new Map(sentences.map(v => [v.id, v]));
 
@@ -26,6 +28,17 @@ function prepareData() {
             word.sentences.push(sentence);
         }
     }
+}
+
+function checkIds(something) {
+    let usedIds = [];
+    something.forEach(x => {
+        if (usedIds.includes(x.id)) {
+            console.log('Duplicate id: ' + x.id);
+            console.log(x);
+        }
+        usedIds.push(x.id);
+    });
 }
 
 function wordLine(word) {
