@@ -23,7 +23,8 @@ function addStatistics() {
     let li;
 
     li = document.createElement('li');
-    li.textContent = 'Words with sentences: ' + words.filter(w => w.sentences.length > 0).length;
+    li.textContent = 'Words with sentences: ' + words.filter(w => w.sentences.length > 0).length
+        + ' without sentences: ' + words.filter(w => w.sentences.length == 0).length;
     ol.appendChild(li);
 
     let byTypeLi = document.createElement('li');
@@ -60,19 +61,15 @@ function addStatistics() {
     li.textContent = 'Undefined type: ' + words.filter(w => !w.t).length;
     byTypeOl.appendChild(li);
 
-    li = document.createElement('li');
-    li.textContent = 'Words without sentences: ' + words.filter(w => w.sentences.length == 0).length;
-    ol.appendChild(li);
-
+    priority(ol);
     books(ol);
 
     container.appendChild(ol);
 }
 
 function books(parent) {
-
     let bookLi = document.createElement('li');
-    bookLi.textContent = 'Books';
+    bookLi.textContent = 'Words by books';
     parent.appendChild(bookLi);
 
     let ol = document.createElement('ol');
@@ -81,5 +78,25 @@ function books(parent) {
         li.textContent = bt + ' ' + words.filter(w => w.tag && w.tag.includes(bt)).length;
         ol.appendChild(li);
     });
+    parent.appendChild(ol);
+}
+
+function priority(parent) {
+    let bookLi = document.createElement('li');
+    bookLi.textContent = 'Words by priority';
+    parent.appendChild(bookLi);
+
+    let ol = document.createElement('ol');
+
+    let li;
+
+    li = document.createElement('li');
+    li.textContent ='0,+1: ' + words.filter(w => !w.p || w.p == '0' || w.p == '+1').length;
+    ol.appendChild(li);
+
+    li = document.createElement('li');
+    li.textContent ='-1: ' + words.filter(w => w.p == '-1').length;
+    ol.appendChild(li);
+
     parent.appendChild(ol);
 }
