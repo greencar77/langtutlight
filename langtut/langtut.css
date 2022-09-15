@@ -41,3 +41,7 @@ button {
     border-color: yellow;
     background-color: lightyellow;
 }
+
+.existingWord {
+    color: lightgray;
+}

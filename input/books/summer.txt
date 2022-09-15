@@ -1,0 +1,4 @@
+@@p:50
+admissions|v:admission
+come off it|v:to come off something
+tempted|v:tempt
