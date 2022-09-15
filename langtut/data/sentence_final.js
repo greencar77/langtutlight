@@ -1,5 +1,53 @@
 let sentencesFinal = [
 {
+  "id": "295010",
+  "v": "I hadn't had enough sleep and was feeling kind of grumpy.",
+  "v-2811525": "I hadn't had enough sleep and was feeling kind of %aizkaitināms%.",
+  "com": "https://dictionary.cambridge.org/dictionary/english/grumpy",
+},
+{
+  "id": "2950900",
+  "v": "You can take the following steps to make sure that you don't fall pray to an inadvertent problem.",
+  "v-2950736": "You can take the following steps to make sure that you don't fall pray to an %netieša% problem.",
+  "com": "https://sentence.yourdictionary.com/inadvertent",
+},
+{
+  "id": "2959600",
+  "v": "The past includes bad mortgage loans, collateralized debt obligations and all manner of other lunkheaded lending decisions.",
+  "v-2959506": "The past includes bad mortgage loans, collateralized debt obligations and all manner of other lunkheaded lending decisions.",
+  "com": "https://www.merriam-webster.com/dictionary/lunkheaded",
+},
+{
+  "id": "2959525",
+  "v": "You may stumble on some retro styles that look cool and trendy now.",
+  "v-2959235": "You may %uzskriet virsū% on some retro styles that look cool and trendy now.",
+},
+{
+  "id": "2945824",
+  "v": "Santa Claus might be the mythical figure best known for being jolly — he's especially famous for his jolly 'Ho ho ho!'.",
+  "v-294566": "Santa Claus might be the mythical figure best known for being %jautrs, priecīgs% — he's especially famous for his %jautrs, priecīgs% 'Ho ho ho!'.",
+  "com": "https://www.vocabulary.com/dictionary/jolly",
+},
+{
+  "id": "2942309",
+  "v": "She's trying to find a publisher who will take a chance on her book.",
+  "v-2942227": "She's trying to find a publisher who will %dos iespēju% on her book.",
+  "com": "https://www.merriam-webster.com/dictionary/take%20a%20chance",
+},
+{
+  "id": "2936947",
+  "v": "What strikes home as the shuttle boat approaches the $5 billion megaresort being constructed off the coast of Dubai is its sheer audacity.",
+  "v-2936210": "What %līdzinās, izskatās kā% home as the shuttle boat approaches the $5 billion megaresort being constructed off the coast of Dubai is its sheer audacity.",
+  "v-2936043": "What strikes home as the shuttle boat approaches the $5 billion megaresort being constructed off the coast of Dubai is its sheer %uzdrošināšanās%.",
+  "com": "CNN - on artificial islands in Dubai",
+},
+{
+  "id": "2921658",
+  "v": "And yet, she was reluctant to say anything to church members - even family members.",
+  "v-2921554": "And yet, she was %atturīga% to say anything to church members - even family members.",
+  "com": "https://sentence.yourdictionary.com/reluctant",
+},
+{
   "id": "2912153",
   "v": "Housekeeping is repetitious and unnecessary drudgery; as an engineer it offended me.",
   "v-2912310": "Housekeeping is repetitious and unnecessary %truls darbs%; as an engineer it offended me.",

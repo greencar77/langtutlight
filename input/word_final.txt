@@ -1,4 +1,50 @@
 @@
+id:2950249
+v:markup
+trans:komisijas maksa
+@@
+id:2950736
+v:inadvertent
+p:+1
+trans:netieši
+@@
+id:2959506
+v:lunkheaded
+p:+1
+tag:summer
+trans:finanšu krāpniecisks
+@@
+id:2959235
+v:stumble
+t:v
+tag:summer
+@@
+id:294566
+v:jolly
+t:a
+p:+1
+@@
+id:2942227
+v:take a chance
+t:i
+@@
+id:2936210
+v:strike
+t:v
+trans:līdzināties, nolīdzināt
+p:+1
+@@
+id:2936043
+v:audacity
+t:a
+trans:nekaunība
+p:+1
+@@
+id:2921554
+v:reluctant
+t:a
+p:+1
+@@
 id:2912310
 v:drudgery
 t:n
