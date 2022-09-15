@@ -84,14 +84,6 @@ let wordsFinal = [
   "trans": "aizslēpt aiz kaut kā cita",
 },
 {
-  "id": "2887507",
-  "v": "whiny",
-  "trans": "žēlabains",
-  "p": "+1",
-  "t": "a",
-  "tag": "dome",
-},
-{
   "id": "2901241",
   "v": "tether",
   "t": "n",
@@ -116,12 +108,6 @@ let wordsFinal = [
   "v": "foray",
   "trans": "iebrukums",
   "p": "+1",
-},
-{
-  "id": "2832358",
-  "v": "cloak",
-  "p": "+1",
-  "trans": "aizslēpt aiz kaut kā cita",
 },
 {
   "id": "2887507",

@@ -70,13 +70,6 @@ v:cloak
 p:+1
 trans:aizslēpt aiz kaut kā cita
 @@
-id:2887507
-v:whiny
-trans:žēlabains
-p:+1
-t:a
-tag:dome
-@@
 id:2901241
 v:tether
 t:n
@@ -98,11 +91,6 @@ id:2978440
 v:foray
 trans:iebrukums
 p:+1
-@@
-id:2832358
-v:cloak
-p:+1
-trans:aizslēpt aiz kaut kā cita
 @@
 id:2887507
 v:whiny

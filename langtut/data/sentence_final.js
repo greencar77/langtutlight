@@ -75,12 +75,6 @@ let sentencesFinal = [
   "com": "p775",
 },
 {
-  "id": "2832319",
-  "v": "Borges’ last insight regarding the Library is cloaked in a footnote adorning the conclusion of the last sentence.",
-  "v-2832358": "Borges’ last insight regarding the Library is %aizslēpts% in a footnote adorning the conclusion of the last sentence.",
-  "com": "ch3 p45 Bloch Babel",
-},
-{
   "id": "2887322",
   "v": "He hung up before Roger could recommence his whiny shit and for a moment just stood there, fuming.",
   "v-2887209": "He hung up before Roger could %sākt no jauna% his whiny shit and for a moment just stood there, fuming.",
@@ -123,14 +117,6 @@ let sentencesFinal = [
   "v": "Borges’ last insight regarding the Library is cloaked in a footnote adorning the conclusion of the last sentence.",
   "v-2832358": "Borges’ last insight regarding the Library is %aizslēpts% in a footnote adorning the conclusion of the last sentence.",
   "com": "ch3 p45 Bloch Babel",
-},
-{
-  "id": "2887322",
-  "v": "He hung up before Roger could recommence his whiny shit and for a moment just stood there, fuming.",
-  "v-2887209": "He hung up before Roger could %sākt no jauna% his whiny shit and for a moment just stood there, fuming.",
-  "v-2887507": "He hung up before Roger could recommence his %žēlabaino% shit and for a moment just stood there, fuming.",
-  "tag": "dome",
-  "com": "p564",
 },
 {
   "id": "2811625",
