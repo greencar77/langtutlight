@@ -1,5 +1,11 @@
 let sentencesFinal = [
 {
+  "id": "2950418",
+  "v": "You can sell the bricks for a significant markup.",
+  "v-2950249": "You can sell the bricks for a significant %komisija, peļņas procents%.",
+  "com": "https://sentence.yourdictionary.com/markup",
+},
+{
   "id": "295010",
   "v": "I hadn't had enough sleep and was feeling kind of grumpy.",
   "v-2811525": "I hadn't had enough sleep and was feeling kind of %aizkaitināms%.",
