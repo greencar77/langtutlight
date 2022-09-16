@@ -1,7 +1,5 @@
 "use strict";
 
-const bookTag = ['dome', 'summer'];
-
 function init() {
     prepareData();
 
@@ -62,12 +60,13 @@ function addStatistics() {
     byTypeOl.appendChild(li);
 
     priority(ol);
-    books(ol);
+    bookWords(ol, words);
+    bookSentences(ol, Array.from(sentenceMap.values()))
 
     container.appendChild(ol);
 }
 
-function books(parent) {
+function bookWords(parent, words) {
     let bookLi = document.createElement('li');
     bookLi.textContent = 'Words by books';
     parent.appendChild(bookLi);
@@ -81,6 +80,20 @@ function books(parent) {
     parent.appendChild(ol);
 }
 
+function bookSentences(parent, sentences) {
+    let bookLi = document.createElement('li');
+    bookLi.textContent = 'Sentences by books';
+    parent.appendChild(bookLi);
+
+    let ol = document.createElement('ol');
+    bookTag.forEach(bt => {
+        let li = document.createElement('li');
+        li.textContent = bt + ' ' + sentences.filter(w => w.tag && w.tag.includes(bt)).length;
+        ol.appendChild(li);
+    });
+    parent.appendChild(ol);
+}
+
 function priority(parent) {
     let bookLi = document.createElement('li');
     bookLi.textContent = 'Words by priority';
@@ -89,6 +102,10 @@ function priority(parent) {
     let ol = document.createElement('ol');
 
     let li;
+
+    li = document.createElement('li');
+    li.textContent ='+1: ' + words.filter(w => w.p == '+1').length;
+    ol.appendChild(li);
 
     li = document.createElement('li');
     li.textContent ='0,+1: ' + words.filter(w => !w.p || w.p == '0' || w.p == '+1').length;

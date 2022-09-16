@@ -1,13 +1,13 @@
 "use strict";
 
+const bookTag = ['dome', 'summer'];
+
 let wordMap;
 let sentenceMap;
 
 function prepareData() {
     words = words.concat(wordsFinal);
     sentences = sentences.concat(sentencesFinal);
-    checkIds(words);
-    checkIds(sentences);
     wordMap = new Map(words.map(v => [v.id, v]));
     sentenceMap = new Map(sentences.map(v => [v.id, v]));
 
@@ -19,6 +19,9 @@ function prepareData() {
     }
 
     for (const sentence of sentenceMap.values()) {
+        if (sentence.tag) {
+            sentence.tag = sentence.tag.split(',');
+        }
         for (const [key, value] of Object.entries(sentence)) {
             if (!key.startsWith('v-')) {
                 continue;
@@ -28,6 +31,13 @@ function prepareData() {
             word.sentences.push(sentence);
         }
     }
+    checkIntegrity(words, sentences);
+}
+
+function checkIntegrity(words, sentences) {
+    checkIds(words);
+    checkIds(sentences);
+    checkWordsFromBookSentence(words);
 }
 
 function checkIds(something) {
@@ -38,6 +48,22 @@ function checkIds(something) {
             console.log(x);
         }
         usedIds.push(x.id);
+    });
+}
+
+function checkWordsFromBookSentence(words) {
+    words.forEach(w => {
+        if (w.sentences) {
+            w.sentences.forEach(s => {
+                if (s.tag) {
+                    s.tag.forEach(t => {
+                        if (bookTag.includes(t) && w.tag.includes(t)) {
+                            console.log('Word ' + w.id + ' ' + w.v + ' is missing tag ' + t);
+                        }
+                    });
+                }
+            });
+        }
     });
 }
 
