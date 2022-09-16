@@ -1,7 +1,5 @@
 "use strict";
 
-const bookTag = ['dome', 'summer'];
-
 let wordMap;
 let sentenceMap;
 

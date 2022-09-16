@@ -14,6 +14,15 @@ let debugMode = false;
 function init() {
     quizContext = {};
     prepareData();
+
+    let selectionId = window.location.hash.substring(1);
+    if (selectionId) {
+        quizContext.selection = selections.filter(v => v.id == selectionId)[0];
+    } else {
+        quizContext.selection = selections.filter(v => v.id == 'all')[0];
+    }
+    quizContext.remainingWords = filter(wordMap, quizContext.selection.query);
+
     hideElement('btnDebugOff');
     nextQuestion();
 }
@@ -40,7 +49,7 @@ function showQuestion() {
 }
 
 function popQuestion() {
-    let pickableWords = filter(wordMap);
+    let pickableWords = quizContext.remainingWords;
     if (pickableWords.length == 0) {
         alert('No more words left to pick!');
         return;
@@ -50,16 +59,16 @@ function popQuestion() {
     console.log(randomWord);
     questionWord = randomWord;
     questionCount = pickableWords.length;
-    wordMap.delete(questionWord.id);
+    pickableWords.splice(randomWordIndex, 1);
 
     let randomSentenceIndex = Math.floor(Math.random() * randomWord.sentences.length);
     let randomSentence = randomWord.sentences[randomSentenceIndex];
     question = randomSentence;
 }
 
-function filter(wordMap) {
-    let result = Array.from(wordMap.values()).filter(e => e.sentences.length > 0);
-    console.log('Filtered ' + result.length + ' words');
+function filter(wordMap, fun) {
+    let result = Array.from(wordMap.values()).filter(fun);
+    console.log('Selected ' + result.length + ' words');
     return result;
 }
 
