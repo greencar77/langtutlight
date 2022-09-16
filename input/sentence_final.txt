@@ -1,4 +1,9 @@
 @@
+id:2956413
+v:Then the large cells recommence the process of division and sink into the hollow of the sphere, leaving an elongated groove, the blastopore, on the surface.
+v-2887209:Then the large cells %atsāk% the process of division and sink into the hollow of the sphere, leaving an elongated groove, the blastopore, on the surface.
+com:https://sentence.yourdictionary.com/recommence
+@@
 id:2950418
 v:You can sell the bricks for a significant markup.
 v-2950249:You can sell the bricks for a significant %komisija, peļņas procents%.
