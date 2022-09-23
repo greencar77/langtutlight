@@ -11,6 +11,14 @@ const selections = [
         }
     },
     {
+        "id": "pv",
+        "title": "Phrasal verbs",
+        "query": function(word) {
+            return word.sentences.length > 0
+                && word.t && word.t == 'pv';
+        }
+    },
+    {
         "id": "dome",
         "title": "Book \"Under the Dome\"",
         "query": function(word) {

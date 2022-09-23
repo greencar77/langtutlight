@@ -1,8 +1,9 @@
 let words = [
 {
-  "id": "2913212",
-  "v": "fiddle",
-  "trans": "paķimerēties",
-  "tag": "summer",
+  "id": "2996057",
+  "v": "savvy",
+  "t": "v",
+  "trans": "zināt no praktiskās puses, minimumu",
   "p": "+1",
+  "tag": "summer",
 }];
