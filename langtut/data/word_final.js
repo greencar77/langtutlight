@@ -1,5 +1,32 @@
 let wordsFinal = [
 {
+  "id": "2980329",
+  "v": "hang on",
+  "t": "pv",
+  "p": "+1",
+  "trans": "turpināties",
+},
+{
+  "id": "2980916",
+  "v": "demise",
+  "t": "n",
+  "trans": "aiziešana nebūtībā",
+},
+{
+  "id": "2936735",
+  "v": "turn out",
+  "t": "pv",
+  "p": "+1",
+  "trans": "izrādīties (būt patiesam)",
+},
+{
+  "id": "2933107",
+  "v": "aghast",
+  "t": "a",
+  "p": "+1",
+  "trans": "šausmu pilns",
+},
+{
   "id": "2921620",
   "v": "dismay",
   "t": "n",
@@ -55,7 +82,7 @@ let wordsFinal = [
   "v": "plunge",
   "t": "v",
   "tag": "summer",
-  "trans": "ielēkt",
+  "trans": "ielēkt, ienirt",
   "p": "+1",
 },
 {
@@ -340,7 +367,7 @@ let wordsFinal = [
   "id": "2820258",
   "v": "dodge",
   "t": "v",
-  "trans": "laipot",
+  "trans": "laipot, izvairīties ložņājot",
   "p": "+1",
 },
 {

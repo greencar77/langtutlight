@@ -1,5 +1,27 @@
 let sentencesFinal = [
 {
+  "id": "2980808",
+  "v": "Each could hang on for years. But this month provided a glimpse of their eventual demise.",
+  "v-2980329": "Each could %turpināt tādā garā% for years. But this month provided a glimpse of their eventual demise.",
+  "v-2980916": "Each could hang on for years. But this month provided a glimpse of their eventual %miršanu, aiziešanu nebūtībā%.",
+  "com": "https://www.project-syndicate.org/commentary/russia-iran-perils-of-regime-collapse-by-robert-d-kaplan-2022-09",
+},
+{
+  "id": "2936009",
+  "v": "I'm sure it will all turn out well in the end.",
+  "v-2936735": "I'm sure it will all %izrādīsies, būs% well in the end.",
+},
+{
+  "id": "2936859",
+  "v": "Obviously, I’m disappointed at the way things have turned out.",
+  "v-2936735": "Obviously, I’m disappointed at the way things have %izrādīsies, būs%.",
+},
+{
+  "id": "2933214",
+  "v": "He looked at her aghast.",
+  "v-2933107": "He looked at her %šausmu pārņemts%.",
+},
+{
   "id": "2921853",
   "v": "The fans watched in/with dismay as their team lost 42–11.",
   "v-2921620": "The fans watched in/with %vilšanās izmisums% as their team lost 42–11.",
@@ -44,7 +66,7 @@ let sentencesFinal = [
   "id": "2972340",
   "v": "I was wondering how much money I had made and was congratulating myself on having plunged in common stocks rather than playing it 'safe'.",
   "tag": "summer.",
-  "v-2792654": "I was wondering how much money I had made and was congratulating myself on having %ielēcis% in common stocks rather than playing it 'safe'.",
+  "v-2792654": "I was wondering how much money I had made and was congratulating myself on having %ielēcis, ieniris% in common stocks rather than playing it 'safe'.",
   "v-2973202": "I was wondering how much money I had made and was congratulating myself on having plunged in common stocks rather than %darboties bez riska%.",
   "tag": "summer",
   "com": "p80",
@@ -321,7 +343,7 @@ let sentencesFinal = [
 {
   "id": "2823152",
   "v": "His eyes were empty. 'And I'm pissed.'",
-  "v-2823037": "His eyes were empty. 'And I'm %pielillājies%.'",
+  "v-2823037": "His eyes were empty. 'And I'm %pietempies, piesūcies%.'",
   "com": "486.lpp",
 },
 {
@@ -357,7 +379,7 @@ let sentencesFinal = [
 {
   "id": "2820605",
   "v": "Marchers had to dodge missiles thrown by loyalists.",
-  "v-2820258": "Marchers had to %izvairīties līkloču% missiles thrown by loyalists.",
+  "v-2820258": "Marchers had to %izvairīties ložņājot% missiles thrown by loyalists.",
 },
 {
   "id": "2876737",
