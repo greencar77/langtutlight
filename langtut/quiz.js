@@ -46,6 +46,8 @@ function showQuestion() {
 
     const qCount = document.getElementById('questionCount');
     qCount.textContent = questionCount;
+
+    document.getElementById('otherWords').textContent = '';
 }
 
 function popQuestion() {
@@ -98,6 +100,25 @@ function fillAdditionalInfo() {
 
     e = document.getElementById('comment');
     e.innerHTML = question.com;
+
+    showOtherWords();
+}
+
+function showOtherWords() {
+    const otherWordSentences = Object.keys(question)
+        .filter(s => s.startsWith('v-'))
+        .map(v => v.substring(2))
+        .filter(n => n != questionWord.id);
+    if (otherWordSentences.length > 0) {
+        let div = document.getElementById('otherWords');
+        let ol = document.createElement('ol');
+        for (const sentenceWordId of otherWordSentences) {
+            let li = document.createElement('li');
+            li.innerHTML = wordLine(wordMap.get(sentenceWordId));
+            ol.appendChild(li);
+        }
+        div.appendChild(ol);
+    }
 }
 
 function markPassed() {
