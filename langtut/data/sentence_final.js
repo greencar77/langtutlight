@@ -74,7 +74,9 @@ let sentencesFinal = [
 {
   "id": "2972705",
   "v": "If you find things a bit tiring at first, you're entitled to four more days' recuperation an reorientation here without additional charge under the custodial contract.",
+  "v-2999535": "If you find things a bit tiring at first, you're %piešķirts% to four more days' recuperation an reorientation here without additional charge under the custodial contract.",
   "v-2972929": "If you find things a bit tiring at first, you're entitled to four more days' %atjaunošanās, atlabšana% and reorientation here without additional charge under the custodial contract.",
+  "v-2999807": "If you find things a bit tiring at first, you're entitled to four more days' recuperation an reorientation here without additional charge under the %(vecāku) uzraudzības% contract.",
   "tag": "summer",
   "com": "p80",
 },

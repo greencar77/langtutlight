@@ -1,5 +1,18 @@
 let wordsFinal = [
 {
+  "id": "2999807",
+  "v": "custodial",
+  "t": "a",
+  "p": "+1",
+  "trans": "šefības, uzraudzības",
+},
+{
+  "id": "2999535",
+  "v": "entitle",
+  "t": "v",
+  "trans": "dot tiesības",
+},
+{
   "id": "2980329",
   "v": "hang on",
   "t": "pv",
@@ -285,6 +298,7 @@ let wordsFinal = [
   "t": "pv",
   "trans": "atlikt, postpone, atteikt",
   "p": "+1",
+  "tag": "summer",
 },
 {
   "id": "2878741",
