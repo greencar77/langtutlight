@@ -9,17 +9,16 @@ function prepareData() {
     wordMap = new Map(words.map(v => [v.id, v]));
     sentenceMap = new Map(sentences.map(v => [v.id, v]));
 
-    for (const word of wordMap.values()) {
-        word.sentences = new Array();
-        if (word.tag) {
-            word.tag = word.tag.split(',');
-        }
-    }
+    transformWordTags(wordMap);
+    transformSentenceTags(sentenceMap);
+    extractSentenceWords(sentenceMap);
+    updateWordsFromBookSentence(words);
 
+    checkIntegrity(words, sentences);
+}
+
+function extractSentenceWords(sentenceMap) {
     for (const sentence of sentenceMap.values()) {
-        if (sentence.tag) {
-            sentence.tag = sentence.tag.split(',');
-        }
         for (const [key, value] of Object.entries(sentence)) {
             if (!key.startsWith('v-')) {
                 continue;
@@ -29,7 +28,23 @@ function prepareData() {
             word.sentences.push(sentence);
         }
     }
-    checkIntegrity(words, sentences);
+}
+
+function transformWordTags(wordMap) {
+    for (const word of wordMap.values()) {
+        word.sentences = new Array();
+        if (word.tag) {
+            word.tag = word.tag.split(',');
+        }
+    }
+}
+
+function transformSentenceTags(sentenceMap) {
+    for (const sentence of sentenceMap.values()) {
+        if (sentence.tag) {
+            sentence.tag = sentence.tag.split(',');
+        }
+    }
 }
 
 function checkIntegrity(words, sentences) {
@@ -55,8 +70,24 @@ function checkWordsFromBookSentence(words) {
             w.sentences.forEach(s => {
                 if (s.tag) {
                     s.tag.forEach(t => {
-                        if (bookTag.includes(t) && w.tag && w.tag.includes(t)) {
+                        if (bookTag.includes(t) && w.tag && !w.tag.includes(t)) {
                             console.log('Word ' + w.id + ' ' + w.v + ' is missing tag ' + t);
+                        }
+                    });
+                }
+            });
+        }
+    });
+}
+
+function updateWordsFromBookSentence(words) {
+    words.forEach(w => {
+        if (w.sentences) {
+            w.sentences.forEach(s => {
+                if (s.tag) {
+                    s.tag.forEach(t => {
+                        if (bookTag.includes(t) && w.tag && !w.tag.includes(t)) {
+                            w.tag.push(t);
                         }
                     });
                 }
