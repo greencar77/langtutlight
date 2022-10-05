@@ -56,7 +56,7 @@ let wordsFinal = [
   "id": "2993028",
   "v": "lick",
   "t": "v",
-  "tag": "summee",
+  "tag": "summer",
   "p": "+1",
   "com": "informal meaning",
   "trans": "arī - tikt galā ar problēmu",
