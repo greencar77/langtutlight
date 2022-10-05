@@ -1,5 +1,11 @@
 let wordsFinal = [
 {
+  "id": "2909852",
+  "v": "adorn",
+  "t": "v",
+  "p": "+1",
+},
+{
   "id": "2999807",
   "v": "custodial",
   "t": "a",
@@ -423,6 +429,8 @@ let wordsFinal = [
   "id": "2876814",
   "v": "call out",
   "trans": "izsaukt kādu rīkoties, piem dakteri. call smdy out",
+  "t": "pv",
+  "p": "+1",
 },
 {
   "id": "2807740",

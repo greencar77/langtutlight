@@ -1,5 +1,17 @@
 let sentencesFinal = [
 {
+  "id": "2909218",
+  "v": "To my surprise, her smile was no longer one of lofty disdain.",
+  "v-2978544": "To my surprise, her smile was no longer one of lofty %nicinājums%.",
+  "com": "https://sentence.yourdictionary.com/disdain",
+},
+{
+  "id": "2997628",
+  "v": "Analogous changes are observed in the residual magnetization which remains after the wire has been subjected to fields of different strength.",
+  "v-2827520": "Analogous changes are observed in the %atlikušajā% magnetization which remains after the wire has been subjected to fields of different strength.",
+  "com": "https://sentence.yourdictionary.com/residual",
+},
+{
   "id": "2980808",
   "v": "Each could hang on for years. But this month provided a glimpse of their eventual demise.",
   "v-2980329": "Each could %turpināt tādā garā% for years. But this month provided a glimpse of their eventual demise.",
@@ -221,6 +233,7 @@ let sentencesFinal = [
   "id": "2832319",
   "v": "Borges’ last insight regarding the Library is cloaked in a footnote adorning the conclusion of the last sentence.",
   "v-2832358": "Borges’ last insight regarding the Library is %aizslēpts% in a footnote adorning the conclusion of the last sentence.",
+  "v-2909852": "Borges’ last insight regarding the Library is cloaked in a footnote %izgreznojot% the conclusion of the last sentence.",
   "com": "ch3 p45 Bloch Babel",
 },
 {
