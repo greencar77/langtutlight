@@ -1,5 +1,46 @@
 let sentencesFinal = [
 {
+  "id": "2099023",
+  "v": "The Dean at left, a lean yellowish man whose fixed smile nevertheless has the impermanent quality of something stamped into uncooperative material, is a personality-type I’ve come lately to appreciate, the type who delays need of any response from me by relating my side of the story for me, to me.",
+  "v-2099226": "The Dean at left, a lean yellowish man whose fixed smile nevertheless has the impermanent quality of something stamped into uncooperative material, is a personality-type I’ve come lately to %novērtēt pozitīvi%, the type who delays need of any response from me by relating my side of the story for me, to me.",
+  "com": "Infinite Jest, p12/796",
+},
+{
+  "id": "2089548",
+  "v": "With no ideas, but confident in his abilities, the author decides he must open himself up to the artist’s personality by suppressing his own and giving 'free rein to my Id'.",
+  "v-2889536": "With no ideas, but confident in his abilities, the author decides he must %atklāt sevi% himself %up% to the artist’s personality by suppressing his own and giving 'free rein to my Id'.",
+  "com": "https://www.theguardian.com/books/2022/oct/07/the-best-recent-science-fiction-and-fantasy-reviews-roundup",
+},
+{
+  "id": "2053340",
+  "v": "He kneaded a lump of clay for his daughter, but he did not give the task the scrupulous attention he had lavished on the kiln, in fact, he made such a botched job of it that Marta, behind his back, had to knead it again to get rid of the lumps.",
+  "v-2053204": "He %samīcīja% a lump of clay for his daughter, but he did not give the task the scrupulous attention he had lavished on the kiln, in fact, he made such a botched job of it that Marta, behind his back, had to %mīcīt% it again to get rid of the lumps.",
+  "v-2053605": "He kneaded a lump of clay for his daughter, but he did not give the task the scrupulous attention he had %šķieda, nežēloja% on the kiln, in fact, he made such a botched job of it that Marta, behind his back, had to knead it again to get rid of the lumps.",
+  "v-2060251": "He kneaded a lump of clay for his daughter, but he did not give the task the scrupulous attention he had lavished on the %apdedzināšanas krāsns%, in fact, he made such a botched job of it that Marta, behind his back, had to knead it again to get rid of the lumps.",
+  "v-2053547": "He kneaded a lump of clay for his daughter, but he did not give the task the scrupulous attention he had lavished on the kiln, in fact, he made such a %paviršs% job of it that Marta, behind his back, had to knead it again to get rid of the lumps.",
+  "v-2060615": "He kneaded a lump of clay for his daughter, but he did not give the task the scrupulous attention he had lavished on the kiln, in fact, he made such a botched job of it that Marta, behind his back, had to knead it again to get rid of the %krikumiem%.",
+  "tag": "cave",
+  "com": "p32",
+},
+{
+  "id": "2023919",
+  "v": "It's probably somewhere inside me, he thought, then he ran the tap, washed his hands and went out.",
+  "v-2023139": "It's probably somewhere inside me, he thought, then he %atgrieza krānu%, washed his hands and went out.",
+  "tag": "cave",
+  "com": "p22",
+},
+{
+  "id": "2933814",
+  "v": "He appears to have conducted an expedition to Ireland in 1327, and on his return led a foray into England.",
+  "v-2978440": "He appears to have conducted an expedition to Ireland in 1327, and on his return led a %sirojums% into England.",
+  "tag": "web4",
+},
+{
+  "id": "2993119",
+  "v": "The others ran down the platform and then waited impatiently for me to catch them up, with all the luggage.",
+  "v-2876544": "The others ran down the platform and then waited impatiently for me to %piedzīt, pieskriet% them %%, with all the luggage.",
+},
+{
   "id": "2909218",
   "v": "To my surprise, her smile was no longer one of lofty disdain.",
   "v-2978544": "To my surprise, her smile was no longer one of lofty %nicinājums%.",
@@ -41,7 +82,7 @@ let sentencesFinal = [
 {
   "id": "2996744",
   "v": "But an engineer is rarely a mathematical physicist and he does not have to be; he simply has to savvy the skinny of a thing well enough you know shat it can do in practical applications - know the working parameters.",
-  "v-2996057": "But an engineer is rarely a mathematical physicist and he does not have to be; he simply has to %zināt pašu minimumu% the skinny of a thing well enough you know shat it can do in practical applications - know the working parameters.",
+  "v-2996057": "But an engineer is rarely a mathematical physicist and he does not have to be; he simply has to %zināt pašu minimumu% the skinny of a thing well enough you know that it can do in practical applications - know the working parameters.",
   "tag": "summer",
   "com": "p92",
 },
@@ -188,6 +229,7 @@ let sentencesFinal = [
   "id": "2953032",
   "v": "I don't think you can fight a crowd that's bent on cruelty. And no - she wasn't sorry. She took pity, but she wasn't sorry.",
   "v-2953308": "I don't think you can fight a crowd that's bent on cruelty. And no - she wasn't sorry. She %juta līdzi%, but she wasn't sorry.",
+  "v-2997711": "I don't think you can fight a crowd that's %apņēmības pilns% cruelty. And no - she wasn't sorry. She took pity, but she wasn't sorry.",
   "tag": "dome",
   "com": "p775",
 },
@@ -226,7 +268,7 @@ let sentencesFinal = [
 {
   "id": "2978410",
   "v": "It was an important finding, but it turns out there are better ways to approximate pi by means of an infinite sum, as Newton himself soon discovered after this initial foray into these kinds of infinite sums, now called power series.",
-  "v-2978440": "It was an important finding, but it turns out there are better ways to approximate pi by means of an infinite sum, as Newton himself soon discovered after this initial %iebrukums, ielaušanās% into these kinds of infinite sums, now called power series.",
+  "v-2978440": "It was an important finding, but it turns out there are better ways to approximate pi by means of an infinite sum, as Newton himself soon discovered after this initial %reids% into these kinds of infinite sums, now called power series.",
   "com": "https://www.quantamagazine.org/how-isaac-newton-discovered-the-binomial-power-series-20220831/",
 },
 {

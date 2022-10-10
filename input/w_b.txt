@@ -1,4 +1,7 @@
 @@
-id:2993119
-v:The others ran down the platform and then waited impatiently for me to catch them up, with all the luggage.
-v-2876544:The others ran down the platform and then waited impatiently for me to %piedzīt, pieskriet% them %%, with all the luggage.
+id:2092544
+v:They would probably be most put out to learn that 'algor' means the intense cold one feels in one’s body before a fever sets in, and that 'gacho' is neither more nor less than the part of an ox’s neck on which the yoke rests.
+v-2092653:They would probably be most %uztraukti% to learn that 'algor' means the intense cold one feels in one’s body before a fever sets in, and that 'gacho' is neither more nor less than the part of an ox’s neck on which the yoke rests.
+v-2093557:They would probably be most put out to learn that 'algor' means the intense cold one feels in one’s body before a fever sets in, and that 'gacho' is neither more nor less than the part of an ox’s neck on which the %sakas% rests.
+tag:cave
+com:p1
