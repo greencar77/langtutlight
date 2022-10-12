@@ -1,6 +1,6 @@
 "use strict";
 
-const bookTag = ['dome', 'summer'];
+const bookTag = ['dome', 'summer', 'cave'];
 
 const selections = [
     {
@@ -32,6 +32,14 @@ const selections = [
         "query": function(word) {
             return word.sentences.length > 0
                 && word.tag && word.tag.includes('summer');
+        }
+    },
+    {
+        "id": "cave",
+        "title": "Book \"The Cave\"",
+        "query": function(word) {
+            return word.sentences.length > 0
+                && word.tag && word.tag.includes('cave');
         }
     },
 ];

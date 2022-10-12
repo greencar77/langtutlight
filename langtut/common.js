@@ -86,7 +86,10 @@ function updateWordsFromBookSentence(words) {
             w.sentences.forEach(s => {
                 if (s.tag) {
                     s.tag.forEach(t => {
-                        if (bookTag.includes(t) && w.tag && !w.tag.includes(t)) {
+                        if (bookTag.includes(t) && (w.tag && !w.tag.includes(t) || !w.tag)) {
+                            if (!w.tag) {
+                                w.tag = new Array();
+                            }
                             w.tag.push(t);
                         }
                     });
