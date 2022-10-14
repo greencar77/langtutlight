@@ -1,5 +1,10 @@
 let sentencesFinal = [
 {
+  "id": "2010857",
+  "v": "He promised to expedite economic reforms.",
+  "v-2010750": "He promised to %paātrināt% economic reforms.",
+},
+{
   "id": "2099023",
   "v": "The Dean at left, a lean yellowish man whose fixed smile nevertheless has the impermanent quality of something stamped into uncooperative material, is a personality-type I’ve come lately to appreciate, the type who delays need of any response from me by relating my side of the story for me, to me.",
   "v-2099226": "The Dean at left, a lean yellowish man whose fixed smile nevertheless has the impermanent quality of something stamped into uncooperative material, is a personality-type I’ve come lately to %novērtēt pozitīvi%, the type who delays need of any response from me by relating my side of the story for me, to me.",
@@ -31,8 +36,8 @@ let sentencesFinal = [
 },
 {
   "id": "2933814",
-  "v": "He appears to have conducted an expedition to Ireland in 1327, and on his return led a foray into England.",
-  "v-2978440": "He appears to have conducted an expedition to Ireland in 1327, and on his return led a %sirojums% into England.",
+  "v": "He appears to have conducted an expedition to Ireland in 1327, and on his return led a foray into England.",
+  "v-2978440": "He appears to have conducted an expedition to Ireland in 1327, and on his return led a %sirojums% into England.",
   "tag": "web4",
 },
 {

@@ -1,5 +1,12 @@
 let wordsFinal = [
 {
+  "id": "2010750",
+  "v": "expedite",
+  "t": "v",
+  "trans": "paātrināt /ˈɛkspɪdʌɪt/",
+  "p": "+1",
+},
+{
   "id": "2092653",
   "v": "put out",
   "t": "a",
