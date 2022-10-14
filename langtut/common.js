@@ -70,7 +70,7 @@ function checkWordsFromBookSentence(words) {
             w.sentences.forEach(s => {
                 if (s.tag) {
                     s.tag.forEach(t => {
-                        if (bookTag.includes(t) && w.tag && !w.tag.includes(t)) {
+                        if (bookTag.includes(t) && (w.tag && !w.tag.includes(t) || !w.tag)) {
                             console.log('Word ' + w.id + ' ' + w.v + ' is missing tag ' + t);
                         }
                     });

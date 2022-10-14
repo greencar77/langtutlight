@@ -11,11 +11,19 @@ const selections = [
         }
     },
     {
-        "id": "pv",
+        "id": "t_pv",
         "title": "Phrasal verbs",
         "query": function(word) {
             return word.sentences.length > 0
                 && word.t && word.t == 'pv';
+        }
+    },
+    {
+        "id": "t_i",
+        "title": "Idioms",
+        "query": function(word) {
+            return word.sentences.length > 0
+                && word.t && word.t == 'i';
         }
     },
     {
@@ -40,6 +48,22 @@ const selections = [
         "query": function(word) {
             return word.sentences.length > 0
                 && word.tag && word.tag.includes('cave');
+        }
+    },
+    {
+        "id": "plus",
+        "title": "0+ words",
+        "query": function(word) {
+            return word.sentences.length > 0
+                && (!word.p || word.p == '0' || word.p == '+1');
+        }
+    },
+    {
+        "id": "minus",
+        "title": "-1 words",
+        "query": function(word) {
+            return word.sentences.length > 0
+                && word.p == '-1';
         }
     },
 ];
