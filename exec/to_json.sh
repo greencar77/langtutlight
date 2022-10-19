@@ -48,3 +48,16 @@ cat ../input/sentence_final.txt \
  | sed '2d' \
  > ../langtut/data/sentence_final.js
 echo '}];' >> ../langtut/data/sentence_final.js
+
+cat ../input/sentence_yourdictionary.txt \
+ | sed 's/^@@$/}\n{/' \
+ | sed -f sentence.sed  \
+ | sed -r 's/^v-([[:digit:]]*):/v-\1": "/' \
+ | sed 's/^/"/' | sed 's/$/",/' \
+ | sed 's/"{",/{/' | sed 's/"}",/},/' \
+ | sed 's/: " /: "/' \
+ | sed 's/"/  "/' \
+ | sed '1 i\let sentencesYourDictionary = [' \
+ | sed '2d' \
+ > ../langtut/data/sentence_yourdictionary.js
+echo '}];' >> ../langtut/data/sentence_yourdictionary.js

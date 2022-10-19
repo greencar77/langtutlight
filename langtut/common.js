@@ -6,6 +6,7 @@ let sentenceMap;
 function prepareData() {
     words = words.concat(wordsFinal);
     sentences = sentences.concat(sentencesFinal);
+    sentences = sentences.concat(sentencesYourDictionary);
     wordMap = new Map(words.map(v => [v.id, v]));
     sentenceMap = new Map(sentences.map(v => [v.id, v]));
 

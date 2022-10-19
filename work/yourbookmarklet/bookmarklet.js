@@ -1,0 +1,40 @@
+"use strict";
+
+function main() {
+	console.log('Start bookmarklet');
+
+	let body = document.getElementsByTagName('body');
+	let div = document.createElement('div');
+	div.setAttribute('id', 'ltl_capture');
+	let textArea = document.createElement('textarea');
+	textArea.setAttribute('rows', '15');
+	textArea.setAttribute('cols', '50');
+	div.appendChild(textArea);
+	body[0].prepend(div);
+
+	let sen = document.getElementsByClassName('sentence-item__text');
+	let textBlock = '';
+    textBlock += '@@' + '\n';
+    let wordId = nextId();
+    textBlock += 'id:'+ wordId + '\n';
+    textBlock += 'v:' + '\n';
+    textBlock += 't:' + '\n';
+    textBlock += '\n';
+    textBlock += '\n';
+    textBlock += '\n';
+	for (const s of sen) {
+	    console.log(s.textContent);
+	    textBlock += '@@' + '\n';
+	    textBlock += 'id:'+ nextId() + '\n';
+	    textBlock += 'v:' + s.textContent + '\n';
+	    textBlock += 'v-' + wordId + ':' + s.textContent + '\n';
+	    textBlock += 'tag:' + 's_yd' + '\n';
+	}
+	textArea.value = textBlock;
+}
+
+function nextId() {
+    return Math.floor(Math.random() * (9999999 - 1000000) + 1000000);
+}
+
+main();
