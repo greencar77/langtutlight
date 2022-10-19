@@ -1,5 +1,10 @@
 let sentencesFinal = [
 {
+  "id": "2085005",
+  "v": "Charles went on a campaign to subdue the Saxons.",
+  "v-2085936": "Charles went on a campaign to %apspiest% the Saxons.",
+},
+{
   "id": "2010857",
   "v": "He promised to expedite economic reforms.",
   "v-2010750": "He promised to %paātrināt% economic reforms.",
