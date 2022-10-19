@@ -1,9 +1,9 @@
 let sentences = [
 {
-  "id": "2092544",
-  "v": "They would probably be most put out to learn that 'algor' means the intense cold one feels in one’s body before a fever sets in, and that 'gacho' is neither more nor less than the part of an ox’s neck on which the yoke rests.",
-  "v-2092653": "They would probably be most %uztraukti% to learn that 'algor' means the intense cold one feels in one’s body before a fever sets in, and that 'gacho' is neither more nor less than the part of an ox’s neck on which the yoke rests.",
-  "v-2093557": "They would probably be most put out to learn that 'algor' means the intense cold one feels in one’s body before a fever sets in, and that 'gacho' is neither more nor less than the part of an ox’s neck on which the %sakas% rests.",
+  "id": "2073259",
+  "v": "This soliloquy was brought up short by that, for the moment, insuperable obstacle, and this abrupt halt was immediately pounced upon by his second motive for concern, or, rather, three motives in one, the clay figurines, the Center, and the head of the buying department.",
+  "v-2080723": "This %dvēseles monologs% was brought up short by that, for the moment, insuperable obstacle, and this abrupt halt was immediately pounced upon by his second motive for concern, or, rather, three motives in one, the clay figurines, the Center, and the head of the buying department.",
+  "v-2083138": "This soliloquy was %pārsteigts/pārtraukts (i)% by that, for the moment, insuperable obstacle, and this abrupt halt was immediately pounced upon by his second motive for concern, or, rather, three motives in one, the clay figurines, the Center, and the head of the buying department.",
   "tag": "cave",
-  "com": "p1",
+  "com": "p69",
 }];

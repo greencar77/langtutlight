@@ -1,4 +1,37 @@
 @@
+id:2053118
+v:Peacocks strut through the grounds.
+v-2053918:Peacocks strut through the grounds.
+@@
+id:2043443
+v:Authoritarian, paralyzing, circular, occasionally elliptical stock phrases, also jocularly referred to as nuggets of wisdom, are a malignant plague, one of the very worst ever to ravage the earth.
+v-2043045:Authoritarian, paralyzing, circular, occasionally elliptical %klišejas, šablona frāzes%, also jocularly referred to as nuggets of wisdom, are a malignant plague, one of the very worst ever to ravage the earth.
+v-2043835:Authoritarian, paralyzing, circular, occasionally elliptical stock phrases, also %caur jokiem% referred to as nuggets of wisdom, are a malignant plague, one of the very worst ever to ravage the earth.
+tag:cave
+com:p54
+@@
+id:2042928
+v:And what shall we do until that happens, what shall we do if the Center stops buying altogether, how are we going to live and on what, are we just going to wait until the mulberries ripen and Found manages to catch the odd decrepit rabbit?
+v-2043323:And what shall we do until that happens, what shall we do if the Center stops buying altogether, how are we going to live and on what, are we just going to wait until the mulberries ripen and Found manages to catch the odd %vecais sačākstējušais% rabbit?
+tag:cave
+com:p53
+@@
+id:2013920
+v:He got up on his long legs, frantically wagging his tail, as if he were wielding a whip, and, for the first time since he had come seeking asylum, Found barked.
+v-2013304:He got up on his long legs, %nervozi, saraustīti% wagging his tail, as if he were wielding a whip, and, for the first time since he had come seeking asylum, Found barked.
+tag:cave
+@@
+id:2003512
+v:Do you need the toilet right now or can you hang on for a while?
+v-2980329:Do you need the toilet right now or can you %ciesties, turēt% for a while?
+@@
+id:2092544
+v:They would probably be most put out to learn that 'algor' means the intense cold one feels in one’s body before a fever sets in, and that 'gacho' is neither more nor less than the part of an ox’s neck on which the yoke rests.
+v-2092653:They would probably be most %uztraukti% to learn that 'algor' means the intense cold one feels in one’s body before a fever sets in, and that 'gacho' is neither more nor less than the part of an ox’s neck on which the yoke rests.
+v-2093557:They would probably be most put out to learn that 'algor' means the intense cold one feels in one’s body before a fever sets in, and that 'gacho' is neither more nor less than the part of an ox’s neck on which the %sakas% rests.
+tag:cave
+com:p1
+@@
 id:2085005
 v:Charles went on a campaign to subdue the Saxons.
 v-2085936:Charles went on a campaign to %apspiest% the Saxons.
@@ -54,7 +87,7 @@ com:https://sentence.yourdictionary.com/residual
 @@
 id:2980808
 v:Each could hang on for years. But this month provided a glimpse of their eventual demise.
-v-2980329:Each could %turpināt tādā garā% for years. But this month provided a glimpse of their eventual demise.
+v-2980329:Each could %cieši turēties% for years. But this month provided a glimpse of their eventual demise.
 v-2980916:Each could hang on for years. But this month provided a glimpse of their eventual %miršanu, aiziešanu nebūtībā%.
 com:https://www.project-syndicate.org/commentary/russia-iran-perils-of-regime-collapse-by-robert-d-kaplan-2022-09
 @@
@@ -163,7 +196,7 @@ com:https://www.merriam-webster.com/dictionary/lunkheaded
 @@
 id:2959525
 v:You may stumble on some retro styles that look cool and trendy now.
-v-2959235:You may %uzskriet virsū% on some retro styles that look cool and trendy now.
+v-2959235:You may %uzgrūsties virsū% on some retro styles that look cool and trendy now.
 @@
 id:2945824
 v:Santa Claus might be the mythical figure best known for being jolly — he's especially famous for his jolly 'Ho ho ho!'.
@@ -172,7 +205,7 @@ com:https://www.vocabulary.com/dictionary/jolly
 @@
 id:2942309
 v:She's trying to find a publisher who will take a chance on her book.
-v-2942227:She's trying to find a publisher who will %dos iespēju% on her book.
+v-2942227:She's trying to find a publisher who will %riskēs, dos iespēju% on her book.
 com:https://www.merriam-webster.com/dictionary/take%20a%20chance
 @@
 id:2936947
@@ -312,7 +345,7 @@ v-2854044:The sea %mirguļoja% in the sunlight.
 id:2879429
 v:So, you want to beckon to your lover in a more subtle way than strutting around in a teddy.
 v-2879057:So, you want to %dot mājienu% to your lover in a more subtle way than strutting around in a teddy.
-v-2879745:So, you want to beckon to your lover in a more subtle way than %staigāt apkārt kā pāvs% in a teddy.
+v-2879745:So, you want to beckon to your lover in a more subtle way than %stīvi staigāt apkārt kā pāvs%.
 com:https://sentence.yourdictionary.com/beckon
 @@
 id:2879224
@@ -361,6 +394,7 @@ v-2826810:%prozit! (lūka)% he said... but didn't drink.
 @@
 id:2826615
 v:And as the forward escape hatch was also destroyed, the LR5's only hope of gaining access to the submarine now is through the aft hatch.
+v-2008233:And as the forward escape hatch was also destroyed, the LR5's only hope of gaining access to the submarine now is through the %aizmugures% hatch.
 v-2826529:And as the forward escape %lūka% was also destroyed, the LR5's only hope of gaining access to the submarine now is through the aft %lūka%.
 @@
 id:2825155

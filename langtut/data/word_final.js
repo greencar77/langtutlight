@@ -1,5 +1,57 @@
 let wordsFinal = [
 {
+  "id": "2080723",
+  "v": "soliloquy",
+  "t": "n",
+  "p": "+1",
+},
+{
+  "id": "2053918",
+  "v": "strut",
+  "t": "v",
+  "trans": "iet stīvi",
+},
+{
+  "id": "2043045",
+  "v": "stock phrase",
+  "t": "i",
+  "trans": "šablona frāze",
+},
+{
+  "id": "2043835",
+  "v": "jocularly",
+  "t": "av",
+  "p": "+1",
+  "com": "/ˈdʒɒk.jə.lə.li/",
+},
+{
+  "id": "2043323",
+  "v": "decrepit",
+  "t": "a",
+  "p": "+1",
+  "trans": "novecojis",
+},
+{
+  "id": "2013304",
+  "v": "frantically",
+  "t": "av",
+  "trans": "nervozi, saraustīti",
+},
+{
+  "id": "2008233",
+  "v": "aft",
+  "t": "adjective",
+  "p": "+1",
+  "trans": "kuģa vai lidm. pati aizmugure (stern)",
+},
+{
+  "id": "2093557",
+  "v": "yoke",
+  "t": "n",
+  "p": "+1",
+  "trans": "sakas",
+},
+{
   "id": "2085936",
   "v": "subdue",
   "t": "v",
@@ -102,7 +154,7 @@ let wordsFinal = [
   "v": "hang on",
   "t": "pv",
   "p": "+1",
-  "trans": "turpināties",
+  "trans": "cieši turēties, ciesties",
 },
 {
   "id": "2980916",
