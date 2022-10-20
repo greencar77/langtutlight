@@ -16,7 +16,7 @@ function main() {
 	let sen = document.getElementsByClassName('sentence-item__text');
 	let textBlock = '';
     textBlock += '@@' + '\n';
-    let wordId = nextId();
+    let wordId = '$wordid$';
     textBlock += 'id:'+ wordId + '\n';
     textBlock += 'v:' + '\n';
     textBlock += 't:' + '\n';
