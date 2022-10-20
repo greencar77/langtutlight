@@ -1,5 +1,19 @@
 let wordsFinal = [
 {
+  "id": "2009526",
+  "v": "ravage",
+  "t": "v",
+  "trans": "plosīt",
+  "p": "+1",
+},
+{
+  "id": "2090727",
+  "v": "voracious",
+  "t": "a",
+  "p": "+1",
+  "trans": "rijīgs, nepiesātināms",
+},
+{
   "id": "2080723",
   "v": "soliloquy",
   "t": "n",
@@ -36,6 +50,7 @@ let wordsFinal = [
   "v": "frantically",
   "t": "av",
   "trans": "nervozi, saraustīti",
+  "p": "+1",
 },
 {
   "id": "2008233",

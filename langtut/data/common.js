@@ -66,4 +66,20 @@ const selections = [
                 && word.p == '-1';
         }
     },
+    {
+        "id": "s_yd",
+        "title": "yourdictionary",
+        "query": function(word) {
+            return word.sentences.length > 0
+                && word.tag && word.tag.includes('s_yd');
+        }
+    },
+    {
+        "id": "need_sentence",
+        "title": "+1 with 0 or 1 sentence",
+        "query": function(word) {
+            return word.sentences.length <= 1
+                && word.p == '+1';
+        }
+    },
 ];

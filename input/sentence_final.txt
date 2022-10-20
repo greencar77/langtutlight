@@ -1,4 +1,8 @@
 @@
+id:2009617
+v:The hurricane ravaged southern Florida.
+v-2009526:The hurricane %plosīja% southern Florida.
+@@
 id:2053118
 v:Peacocks strut through the grounds.
 v-2053918:Peacocks strut through the grounds.
@@ -7,6 +11,7 @@ id:2043443
 v:Authoritarian, paralyzing, circular, occasionally elliptical stock phrases, also jocularly referred to as nuggets of wisdom, are a malignant plague, one of the very worst ever to ravage the earth.
 v-2043045:Authoritarian, paralyzing, circular, occasionally elliptical %klišejas, šablona frāzes%, also jocularly referred to as nuggets of wisdom, are a malignant plague, one of the very worst ever to ravage the earth.
 v-2043835:Authoritarian, paralyzing, circular, occasionally elliptical stock phrases, also %caur jokiem% referred to as nuggets of wisdom, are a malignant plague, one of the very worst ever to ravage the earth.
+v-2009526:Authoritarian, paralyzing, circular, occasionally elliptical stock phrases, also jocularly referred to as nuggets of wisdom, are a malignant plague, one of the very worst ever to %plosītu% the earth.
 tag:cave
 com:p54
 @@
@@ -147,10 +152,10 @@ tag:summer
 com:p80
 @@
 id:2972705
-v:If you find things a bit tiring at first, you're entitled to four more days' recuperation an reorientation here without additional charge under the custodial contract.
-v-2999535:If you find things a bit tiring at first, you're %piešķirts% to four more days' recuperation an reorientation here without additional charge under the custodial contract.
+v:If you find things a bit tiring at first, you're entitled to four more days' recuperation and reorientation here without additional charge under the custodial contract.
+v-2999535:If you find things a bit tiring at first, you're %piešķirts% to four more days' recuperation and reorientation here without additional charge under the custodial contract.
 v-2972929:If you find things a bit tiring at first, you're entitled to four more days' %atjaunošanās, atlabšana% and reorientation here without additional charge under the custodial contract.
-v-2999807:If you find things a bit tiring at first, you're entitled to four more days' recuperation an reorientation here without additional charge under the %(vecāku) uzraudzības% contract.
+v-2999807:If you find things a bit tiring at first, you're entitled to four more days' recuperation and reorientation here without additional charge under the %(vecāku) uzraudzības% contract.
 tag:summer
 com:p80
 @@

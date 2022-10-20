@@ -1,5 +1,35 @@
 let sentencesYourDictionary = [
 {
+  "id": "2552636",
+  "v": "Let's not just plunge into this.",
+  "v-2792654": "Let's not just %*% into this.",
+  "tag": "s_yd",
+},
+{
+  "id": "5486088",
+  "v": "Unwilling to go on, she stopped and hugged herself, watching Keaton plunge into the water.",
+  "v-2792654": "Unwilling to go on, she stopped and hugged herself, watching Keaton %*% into the water.",
+  "tag": "s_yd",
+},
+{
+  "id": "9637594",
+  "v": "Let go of the past and plunge in with me.",
+  "v-2792654": "Let go of the past and %*% in with me.",
+  "tag": "s_yd",
+},
+{
+  "id": "9954841",
+  "v": "He actually made the plunge into that bottomless black pool sound almost enticing.",
+  "v-2792654": "He actually made the %*% into that bottomless black pool sound almost enticing.",
+  "tag": "s_yd",
+},
+{
+  "id": "4171676",
+  "v": "He did not plunge headlong into the wars of Louis XI.",
+  "v-2792654": "He did not %*% headlong into the wars of Louis XI.",
+  "tag": "s_yd",
+},
+{
   "id": "2397619",
   "v": "Then the large cells recommence the process of division and sink into the hollow of the sphere, leaving an elongated groove, the blastopore, on the surface.",
   "v-2887209": "Then the large cells %*% the process of division and sink into the hollow of the sphere, leaving an elongated groove, the blastopore, on the surface.",
@@ -57,5 +87,35 @@ let sentencesYourDictionary = [
   "id": "3982321",
   "v": "Under the name of moderates they demanded an end to this war which England continued and Austria threatened to recommence, and that the Directory from selfinterested motives refused to conclude; they desired the abandonment of revolutionary proceedings, order in finance and religious peace.",
   "v-2887209": "Under the name of moderates they demanded an end to this war which England continued and Austria threatened to %*%, and that the Directory from selfinterested motives refused to conclude; they desired the abandonment of revolutionary proceedings, order in finance and religious peace.",
+  "tag": "s_yd",
+},
+{
+  "id": "2319804",
+  "v": "Three of the Brazilian species are voracious and dangerous.",
+  "v-2090727": "Three of the Brazilian species are %*% and dangerous.",
+  "tag": "s_yd",
+},
+{
+  "id": "4756201",
+  "v": "The dolphin is exceedingly voracious, feeding on fish, cuttlefishes and crustaceans.",
+  "v-2090727": "The dolphin is exceedingly %*%, feeding on fish, cuttlefishes and crustaceans.",
+  "tag": "s_yd",
+},
+{
+  "id": "9159391",
+  "v": "Suddenly a colony of extremely voracious ants were crawling across my legs.",
+  "v-2090727": "Suddenly a colony of extremely %*% ants were crawling across my legs.",
+  "tag": "s_yd",
+},
+{
+  "id": "6257106",
+  "v": "The species of Charybdaea are stated to be quick and active in their movements and to be voracious feeders.",
+  "v-2090727": "The species of Charybdaea are stated to be quick and active in their movements and to be %*% feeders.",
+  "tag": "s_yd",
+},
+{
+  "id": "2173406",
+  "v": "The larvae are active and voracious little grub-like creatures (known in the United States as \"wrigglers\"), with large heads and jaws provided with a pair of brushes, which sweep food-particles into the mouth.",
+  "v-2090727": "The larvae are active and %*% little grub-like creatures (known in the United States as \"wrigglers\"), with large heads and jaws provided with a pair of brushes, which sweep food-particles into the mouth.",
   "tag": "s_yd",
 }];
