@@ -41,6 +41,7 @@ function showQuestion() {
     let e = document.getElementById('question');
     let questionString = question["v-" + questionWord.id];
     questionString = questionString.replaceAll(/%%/g, '%?%');
+    questionString = questionString.replaceAll(/%(\**?)%/g, '<span class="hidden">' + '(' + questionWord.trans + ')' + '</span>');
     questionString = questionString.replaceAll(/%(.*?)%/g, '<span class="hidden">$1</span>');
     e.innerHTML = questionString;
 
