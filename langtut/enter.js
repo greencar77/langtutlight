@@ -7,7 +7,6 @@ function clickGenerate() {
     let inputEl = document.getElementById('input');
     let inputString = inputEl.value;
     let inputRows = inputString.split('\n');
-    //alert(inputRows.length + ' ' + inputRows);
 
     let words = new Array();
     let sentences = new Array();

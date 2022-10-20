@@ -70,9 +70,9 @@ function checkWordsFromBookSentence(words) {
         if (w.sentences) {
             w.sentences.forEach(s => {
                 if (s.tag) {
-                    s.tag.forEach(t => {
-                        if (bookTag.includes(t) && (w.tag && !w.tag.includes(t) || !w.tag)) {
-                            console.log('Word ' + w.id + ' ' + w.v + ' is missing tag ' + t);
+                    s.tag.forEach(sentenceTag => {
+                        if ((bookTag.includes(sentenceTag) || sentenceTag == 's_yd') && (w.tag && !w.tag.includes(sentenceTag) || !w.tag)) {
+                            console.log('Word ' + w.id + ' ' + w.v + ' is missing tag ' + sentenceTag);
                         }
                     });
                 }
@@ -86,12 +86,12 @@ function updateWordsFromBookSentence(words) {
         if (w.sentences) {
             w.sentences.forEach(s => {
                 if (s.tag) {
-                    s.tag.forEach(t => {
-                        if (bookTag.includes(t) && (w.tag && !w.tag.includes(t) || !w.tag)) {
+                    s.tag.forEach(sentenceTag => {
+                        if ((bookTag.includes(sentenceTag) || sentenceTag == 's_yd') && (w.tag && !w.tag.includes(sentenceTag) || !w.tag)) {
                             if (!w.tag) {
                                 w.tag = new Array();
                             }
-                            w.tag.push(t);
+                            w.tag.push(sentenceTag);
                         }
                     });
                 }
