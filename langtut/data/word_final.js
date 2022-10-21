@@ -313,6 +313,7 @@ let wordsFinal = [
 {
   "id": "2913212",
   "v": "fiddle",
+  "t": "v",
   "trans": "paķimerēties",
   "tag": "summer",
   "p": "+1",
@@ -320,13 +321,15 @@ let wordsFinal = [
 {
   "id": "2950249",
   "v": "markup",
+  "t": "n",
   "trans": "komisijas maksa",
 },
 {
   "id": "2950736",
   "v": "inadvertent",
+  "t": "a",
   "p": "+1",
-  "trans": "netieši",
+  "trans": "netiešs",
 },
 {
   "id": "2959506",
@@ -399,6 +402,7 @@ let wordsFinal = [
 {
   "id": "2832358",
   "v": "cloak",
+  "t": "v",
   "p": "+1",
   "trans": "aizslēpt aiz kaut kā cita",
 },
@@ -425,6 +429,7 @@ let wordsFinal = [
 {
   "id": "2978440",
   "v": "foray",
+  "t": "n",
   "trans": "iebrukums",
   "p": "+1",
 },
@@ -592,6 +597,7 @@ let wordsFinal = [
 {
   "id": "2826810",
   "v": "down the hatch",
+  "t": "i",
   "trans": "prozit! priekā!",
   "tag": "dome",
 },
