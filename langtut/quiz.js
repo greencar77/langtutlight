@@ -15,17 +15,22 @@ function init() {
     quizContext = {};
     prepareData();
 
+    quizContext.remainingWords = getWords();
+
+    hideElement('btnDebugOff');
+    nextQuestion();
+}
+
+function getWords() {
     let selectionId = window.location.hash.substring(1);
     if (selectionId) {
         quizContext.selection = selections.filter(v => v.id == selectionId)[0];
     } else {
         quizContext.selection = selections.filter(v => v.id == 'all')[0];
     }
-    quizContext.remainingWords = filter(wordMap, quizContext.selection.query);
-
-    hideElement('btnDebugOff');
-    nextQuestion();
+    return filterWords(wordMap, quizContext.selection.query);
 }
+
 
 function nextQuestion() {
     answeredMode = false;
@@ -67,12 +72,6 @@ function popQuestion() {
     let randomSentenceIndex = Math.floor(Math.random() * randomWord.sentences.length);
     let randomSentence = randomWord.sentences[randomSentenceIndex];
     question = randomSentence;
-}
-
-function filter(wordMap, fun) {
-    let result = Array.from(wordMap.values()).filter(fun);
-    console.log('Selected ' + result.length + ' words');
-    return result;
 }
 
 function showAnswer() {

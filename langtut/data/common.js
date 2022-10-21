@@ -83,3 +83,27 @@ const selections = [
         }
     },
 ];
+
+const wordFilters = [
+    {
+        "id": "all",
+        "title": "All",
+        "query": function(word) {
+            return true;
+        }
+    },
+    {
+        "id": "missing_sentences",
+        "title": "Missing sentences",
+        "query": function(word) {
+            return !word.sentences || word.sentences.length == 0;
+        }
+    },
+    {
+        "id": "missing_type",
+        "title": "Missing type",
+        "query": function(word) {
+            return !word.t;
+        }
+    },
+];

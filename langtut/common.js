@@ -123,3 +123,9 @@ function hideElement(e) {
     const elem = document.getElementById(e);
     elem.setAttribute('style', 'display: none;');
 }
+
+function filterWords(wordMap, fun) {
+    let result = Array.from(wordMap.values()).filter(fun);
+    console.log('Selected ' + result.length + ' words');
+    return result;
+}
