@@ -14,6 +14,7 @@ let sentencesYourDictionary = [
 {
   "id": "9637594",
   "v": "Let go of the past and plunge in with me.",
+  "v-2003830": "%atbrīvojies no pagātnes% and plunge in with me.",
   "v-2792654": "Let go of the past and %*% in with me.",
   "tag": "s_yd",
 },

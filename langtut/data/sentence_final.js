@@ -1,5 +1,11 @@
 let sentencesFinal = [
 {
+  "id": "2005626",
+  "v": "Trouble began when her first Chancellor, Kwasi Kwarteng, spooked the financial markets with his mini-budget on 23 September.",
+  "v-2005726": "Trouble began when her first Chancellor, Kwasi Kwarteng, %sabiedēja% the financial markets with his mini-budget on 23 September.",
+  "com": "BBC 2022",
+},
+{
   "id": "2009617",
   "v": "The hurricane ravaged southern Florida.",
   "v-2009526": "The hurricane %plosīja% southern Florida.",
@@ -57,6 +63,7 @@ let sentencesFinal = [
 {
   "id": "2099023",
   "v": "The Dean at left, a lean yellowish man whose fixed smile nevertheless has the impermanent quality of something stamped into uncooperative material, is a personality-type I’ve come lately to appreciate, the type who delays need of any response from me by relating my side of the story for me, to me.",
+  "v-2003046": "The Dean at left, a lean yellowish man whose fixed smile %*% has the impermanent quality of something stamped into uncooperative material, is a personality-type I’ve come lately to appreciate, the type who delays need of any response from me by relating my side of the story for me, to me.",
   "v-2099226": "The Dean at left, a lean yellowish man whose fixed smile nevertheless has the impermanent quality of something stamped into uncooperative material, is a personality-type I’ve come lately to %novērtēt pozitīvi%, the type who delays need of any response from me by relating my side of the story for me, to me.",
   "com": "Infinite Jest, p12/796",
 },
@@ -80,7 +87,7 @@ let sentencesFinal = [
 {
   "id": "2023919",
   "v": "It's probably somewhere inside me, he thought, then he ran the tap, washed his hands and went out.",
-  "v-2023139": "It's probably somewhere inside me, he thought, then he %atgrieza krānu%, washed his hands and went out.",
+  "v-2023139": "It's probably somewhere inside me, he thought, then he %palaida ūdeni no krāna%, washed his hands and went out.",
   "tag": "cave",
   "com": "p22",
 },
@@ -93,6 +100,7 @@ let sentencesFinal = [
 {
   "id": "2993119",
   "v": "The others ran down the platform and then waited impatiently for me to catch them up, with all the luggage.",
+  "v-2003249": "The others %sasniedza, aizskrēja līdz? pv% the platform and then waited impatiently for me to catch them up, with all the luggage.",
   "v-2876544": "The others ran down the platform and then waited impatiently for me to %piedzīt, pieskriet% them %%, with all the luggage.",
 },
 {
@@ -277,7 +285,7 @@ let sentencesFinal = [
   "id": "2998720",
   "v": "'Bag? Cat?' I said wonderingly. 'My friend, I think you’ve come down with an acute figure of speech.'",
   "tag": "summer",
-  "v-2999139": "'Bag? Cat?' I said wonderingly. 'My friend, I think you’ve %spēcīgi uzkritis, bladāc!% with an acute figure of speech.'",
+  "v-2999139": "'Bag? Cat?' I said wonderingly. 'My friend, I think you’ve %nācis klajā?% with an acute figure of speech.'",
   "com": "The Door unto Summer Ch1",
 },
 {

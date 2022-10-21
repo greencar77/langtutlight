@@ -1,5 +1,50 @@
 let wordsFinal = [
 {
+  "id": "2005726",
+  "v": "spook",
+  "t": "v",
+  "p": "+1",
+  "trans": "sabiedēt",
+},
+{
+  "id": "2003830",
+  "v": "let go of the past",
+  "t": "i",
+  "trans": "stepping into the unknown",
+},
+{
+  "id": "2003249",
+  "v": "run down",
+  "t": "pv",
+  "p": "+1",
+  "trans": "uzskriet virsū, sasniegt?",
+},
+{
+  "id": "2003046",
+  "v": "nevertheless",
+  "t": "av",
+  "p": "+1",
+},
+{
+  "id": "2000830",
+  "v": "blindfold",
+  "t": "v",
+  "p": "+1",
+},
+{
+  "id": "2000147",
+  "v": "allegedly",
+  "t": "av",
+  "p": "+1",
+},
+{
+  "id": "2009719",
+  "v": "enhance",
+  "t": "v",
+  "p": "+1",
+  "trans": "pastiprināt, palielināt",
+},
+{
   "id": "2009526",
   "v": "ravage",
   "t": "v",
@@ -91,6 +136,7 @@ let wordsFinal = [
   "id": "2099226",
   "v": "appreciate",
   "t": "v",
+  "p": "+1",
 },
 {
   "id": "2060615",
