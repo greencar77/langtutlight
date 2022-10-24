@@ -607,6 +607,7 @@ let wordsFinal = [
   "t": "n",
   "tag": "dome",
   "trans": "lūka, lidm, zemūdenes durvis",
+  "p": "-1",
 },
 {
   "id": "2825105",
@@ -642,7 +643,8 @@ let wordsFinal = [
   "v": "brim",
   "t": "n",
   "tag": "dome",
-  "trans": "augša?",
+  "trans": "pati maliņa",
+  "p": "-1",
 },
 {
   "id": "2889536",

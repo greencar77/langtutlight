@@ -518,6 +518,7 @@ v:hatch
 t:n
 tag:dome
 trans:lūka, lidm, zemūdenes durvis
+p:-1
 @@
 id:2825105
 v:rule out
@@ -548,7 +549,8 @@ id:2806634
 v:brim
 t:n
 tag:dome
-trans:augša?
+trans:pati maliņa
+p:-1
 @@
 id:2889536
 v:open up
