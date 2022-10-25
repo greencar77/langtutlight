@@ -343,7 +343,7 @@ let sentencesFinal = [
   "id": "2832319",
   "v": "Borges’ last insight regarding the Library is cloaked in a footnote adorning the conclusion of the last sentence.",
   "v-2832358": "Borges’ last insight regarding the Library is %aizslēpts% in a footnote adorning the conclusion of the last sentence.",
-  "v-2909852": "Borges’ last insight regarding the Library is cloaked in a footnote %pievieojot dekoru% the conclusion of the last sentence.",
+  "v-2909852": "Borges’ last insight regarding the Library is cloaked in a footnote %pievienojot dekoru% the conclusion of the last sentence.",
   "com": "ch3 p45 Bloch Babel",
 },
 {

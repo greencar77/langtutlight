@@ -1,5 +1,11 @@
 let wordsFinal = [
 {
+  "id": "2059656",
+  "v": "decorate",
+  "t": "v",
+  "p": "-1",
+},
+{
   "id": "2058035",
   "v": "irritable",
   "t": "a",
@@ -12,6 +18,7 @@ let wordsFinal = [
   "t": "a",
   "trans": "uztraukts un nemierīgs dēļ noguruma",
   "p": "+1",
+  "syn": "2058035",
 },
 {
   "id": "2048501",
@@ -217,6 +224,7 @@ let wordsFinal = [
   "v": "adorn",
   "t": "v",
   "p": "+1",
+  "syn": "2059656",
 },
 {
   "id": "2999807",
@@ -468,6 +476,7 @@ let wordsFinal = [
   "t": "a",
   "p": "+1",
   "trans": "aizkaitināms",
+  "syn": "2058035",
 },
 {
   "id": "2892949",

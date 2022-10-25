@@ -1,4 +1,9 @@
 @@
+id:2059656
+v:decorate
+t:v
+p:-1
+@@
 id:2058035
 v:irritable
 t:a
@@ -10,6 +15,7 @@ v:fretful
 t:a
 trans:uztraukts un nemierīgs dēļ noguruma
 p:+1
+syn:2058035
 @@
 id:2048501
 v:circumvent
@@ -184,6 +190,7 @@ id:2909852
 v:adorn
 t:v
 p:+1
+syn:2059656
 @@
 id:2999807
 v:custodial
@@ -399,6 +406,7 @@ v:grumpy
 t:a
 p:+1
 trans:aizkaitināms
+syn:2058035
 @@
 id:2892949
 v:hoarse
