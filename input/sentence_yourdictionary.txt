@@ -1,4 +1,29 @@
 @@
+id:2274892
+v:Some people argue that individuals can help circumvent this cost by investing in their local farmers markets or community supported agriculture (CSA).
+v-2048501:Some people argue that individuals can help %apiet, izvairīties% this cost by investing in their local farmers markets or community supported agriculture (CSA).
+tag:s_yd
+@@
+id:3815381
+v:However, even if eBuddy web messenger makes it possible for you to circumvent the rules, it doesn't mean you should.
+v-2048501:However, even if eBuddy web messenger makes it possible for you to %apiet% the rules, it doesn't mean you should.
+tag:s_yd
+@@
+id:8053913
+v:They were using an unnatural method to circumvent God's decision - that they would not have a child of their own.
+v-2048501:They were using an unnatural method to %apiet% God's decision - that they would not have a child of their own.
+tag:s_yd
+@@
+id:7015691
+v:This delivers opioid to the same opioid receptors as an intermittent injection, but allows the patient to circumvent delays.
+v-2048501:This delivers opioid to the same opioid receptors as an intermittent injection, but allows the patient to %izvairīties% delays.
+tag:s_yd
+@@
+id:9628500
+v:The first and most famous of these rulers was Gabriel Bethlen (q.v.), who reigned from 1613 to 1629, perpetually thwarted all the efforts of the emperor to oppress or circumvent his Hungarian subjects, and won some reputation abroad by adroitly pretending to champion the Protestant cause.
+v-2048501:The first and most famous of these rulers was Gabriel Bethlen (q.v.), who reigned from 1613 to 1629, perpetually thwarted all the efforts of the emperor to oppress or %apiet% his Hungarian subjects, and won some reputation abroad by adroitly pretending to champion the Protestant cause.
+tag:s_yd
+@@
 id:2552636
 v:Let's not just plunge into this.
 v-2792654:Let's not just %*% into this.

@@ -1,5 +1,12 @@
 let wordsFinal = [
 {
+  "id": "2048501",
+  "v": "circumvent",
+  "t": "v",
+  "trans": "apiet, izvairīties",
+  "p": "+1",
+},
+{
   "id": "2005726",
   "v": "spook",
   "t": "v",
