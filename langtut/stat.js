@@ -25,6 +25,10 @@ function addStatistics() {
         + ' without sentences: ' + words.filter(w => w.sentences.length == 0).length;
     ol.appendChild(li);
 
+    li = document.createElement('li');
+    li.textContent = 'Synonym groups: ' + words.filter(w => w.synonyms).length;
+    ol.appendChild(li);
+
     let byTypeLi = document.createElement('li');
     byTypeLi.textContent = 'Words by type:';
     ol.appendChild(byTypeLi);

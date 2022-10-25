@@ -5,3 +5,4 @@ s/^tag:/tag": "/
 s/^trans:/trans": "/
 s/^p:/p": "/
 s/^t:/t": "/
+s/^syn:/syn": "/

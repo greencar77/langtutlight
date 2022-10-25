@@ -14,6 +14,7 @@ function prepareData() {
     transformSentenceTags(sentenceMap);
     extractSentenceWords(sentenceMap);
     updateWordsFromBookSentence(words);
+    processSynonyms(wordMap);
 
     checkIntegrity(words, sentences);
 }
@@ -36,6 +37,18 @@ function transformWordTags(wordMap) {
         word.sentences = new Array();
         if (word.tag) {
             word.tag = word.tag.split(',');
+        }
+    }
+}
+
+function processSynonyms(wordMap) {
+    for (const word of wordMap.values()) {
+        if (word.syn) {
+            let mainWord = wordMap.get(word.syn);
+            if (!mainWord.synonyms) {
+                mainWord.synonyms = new Array();
+            }
+            mainWord.synonyms.push(word);
         }
     }
 }
@@ -108,6 +121,8 @@ function wordLine(word) {
             + ' (p=' + word.p + ')'
             + ' (sentences=' + word.sentences.length + ')'
             + ' (translation=' + word.trans + ')'
+            + (word.syn? ' ' + 'syn=' + wordMap.get(word.syn).v : '')
+            + (word.synonyms? ' ' + 'synlist=' + word.synonyms.map(x => x.v).join() : '')
             + ' <a href="https://www.onelook.com/?w=' + word.v + '">[OL]</a>'
             + ' <a href="https://letonika.lv/groups/default.aspx?q=' + word.v + '&r=10331062&g=2">[LET]</a>'
             + ' <a href="https://sentence.yourdictionary.com/' + word.v + '">[Web4]</a>'

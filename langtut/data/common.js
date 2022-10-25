@@ -93,6 +93,13 @@ const wordFilters = [
         }
     },
     {
+        "id": "syn",
+        "title": "With synonyms",
+        "query": function(word) {
+            return word.synonyms;
+        }
+    },
+    {
         "id": "missing_sentences",
         "title": "Missing sentences",
         "query": function(word) {
