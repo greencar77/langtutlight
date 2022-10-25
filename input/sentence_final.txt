@@ -1,4 +1,8 @@
 @@
+id:2058142
+v:She hadn't meant to snap at her husband, but she'd had a bad day at work and had come home irritable.
+v-2058035:She hadn't meant to snap at her husband, but she'd had a bad day at work and had come home %aizkaitināma%.
+@@
 id:2005626
 v:Trouble began when her first Chancellor, Kwasi Kwarteng, spooked the financial markets with his mini-budget on 23 September.
 v-2005726:Trouble began when her first Chancellor, Kwasi Kwarteng, %sabiedēja% the financial markets with his mini-budget on 23 September.

@@ -30,6 +30,42 @@ let sentencesYourDictionary = [
   "tag": "s_yd",
 },
 {
+  "id": "6556964",
+  "v": "She is never fretful or irritable, and I have never seen her impatient with her playmates because they failed to understand her.",
+  "v-2058427": "She is never %aizkaitināta% or irritable, and I have never seen her impatient with her playmates because they failed to understand her.",
+  "tag": "s_yd",
+},
+{
+  "id": "9234782",
+  "v": "A young player with a head injury may be extremely irritable or fretful or may cry constantly.",
+  "v-2058427": "A young player with a head injury may be extremely irritable or %aizkaitināts% or may cry constantly.",
+  "tag": "s_yd",
+},
+{
+  "id": "5591252",
+  "v": "Moreover, there was little for them to eat, and as the officers became hungry they became fretful.",
+  "v-2058427": "Moreover, there was little for them to eat, and as the officers became hungry they became %aizkaitināts%.",
+  "tag": "s_yd",
+},
+{
+  "id": "8032755",
+  "v": "The queen was opposed to the Disestablishment of the Irish Church (1869) - the question which brought Gladstone to be premier - and though she yielded with good grace, Gladstone was fretful and astonished because she would not pretend to give a hearty assent to the measure.",
+  "v-2058427": "The queen was opposed to the Disestablishment of the Irish Church (1869) - the question which brought Gladstone to be premier - and though she yielded with good grace, Gladstone was %aizkaitināts% and astonished because she would not pretend to give a hearty assent to the measure.",
+  "tag": "s_yd",
+},
+{
+  "id": "2862173",
+  "v": "With friends like these, who needs Iraqi enemies or a fretful fourth estate gunning to get you?",
+  "v-2058427": "With friends like these, who needs Iraqi enemies or a %aizkaitinātā% fourth estate gunning to get you?",
+  "tag": "s_yd",
+},
+{
+  "id": "6706715",
+  "v": "His temper and life seem to have been remarkably free from all that was jarring, jealous and fretful; unless, indeed, we are to accept as true the account of his wife's character which represents her as having been no fit mate for him, but an incorrigible shrew and skinflint.",
+  "v-2058427": "His temper and life seem to have been remarkably free from all that was jarring, jealous and %aizkaitināts%; unless, indeed, we are to accept as true the account of his wife's character which represents her as having been no fit mate for him, but an incorrigible shrew and skinflint.",
+  "tag": "s_yd",
+},
+{
   "id": "2552636",
   "v": "Let's not just plunge into this.",
   "v-2792654": "Let's not just %*% into this.",
