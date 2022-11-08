@@ -1,7 +1,8 @@
 let words = [
 {
-  "id": "2083138",
-  "v": "bring someone up short",
-  "t": "i",
-  "trans": "kādu pārsteigt (apstādināt)",
+  "id": "2130009",
+  "v": "astray",
+  "t": "zv",
+  "p": "+1",
+  "trans": "nost no ceļa",
 }];

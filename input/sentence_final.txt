@@ -1,4 +1,57 @@
 @@
+id:2063325
+v:The head of the buying department did not respond immediately, he must have been considering whether it was worth amusing himself further with this kind of cat-and-mouse game, but his position on the Center's organization chart reminded him that the whole definition and maintenance of hierarchical configurations is based on their being scrupulously respected and never contravened or transgressed, and, of course, the inevitable result of being too free and easy with one's inferiors or subalterns is to undermine respect and to encourage license, or, to put it more explicitly and unambiguously, it all ends in insubordination, indiscipline and anarchy.
+v-2063254:The head of the buying department did not respond immediately, he must have been considering whether it was worth amusing himself further with this kind of cat-and-mouse game, but his position on the Center's organization chart reminded him that the whole definition and maintenance of hierarchical configurations is based on their being scrupulously respected and never %pretojās aizliegumam% or transgressed, and, of course, the inevitable result of being too free and easy with one's inferiors or subalterns is to undermine respect and to encourage license, or, to put it more explicitly and unambiguously, it all ends in insubordination, indiscipline and anarchy.
+v-2070745:The head of the buying department did not respond immediately, he must have been considering whether it was worth amusing himself further with this kind of cat-and-mouse game, but his position on the Center's organization chart reminded him that the whole definition and maintenance of hierarchical configurations is based on their being scrupulously respected and never contravened or %pārkāpis robežas%, and, of course, the inevitable result of being too free and easy with one's inferiors or subalterns is to undermine respect and to encourage license, or, to put it more explicitly and unambiguously, it all ends in insubordination, indiscipline and anarchy.
+tag:cave
+com:p104/348
+@@
+id:2020148
+v:\"He just wants to give us some hands-on experience,\” said Hermione, immobilizing two pixies at once with a clever Freezing Charm and stuffing them back into their cage.
+v-2020710:\"He just wants to give us some hands-on experience,\” said Hermione, immobilizing two %elfus% at once with a clever Freezing Charm and stuffing them back into their cage.
+com:Harry Potter And The Chamber Of Secrets
+@@
+id:2005431
+v:I will not let you down, no matter what it takes.
+v-2005533:I will not %atstāt bez palīdzības% you %%, no matter what it takes.
+com:Elon Musk tweet 2022
+@@
+id:2000016
+v:She started to criticize me, then she suddenly backed off.
+v-2000915:She started to criticize me, then she suddenly %atkāpās%.
+@@
+id:2093113
+v:When ... what does the formula yield?
+v-2092855:When ... what does the formula %pieaug%?
+tag:schaums
+com:p351
+@@
+id:2073259
+v:This soliloquy was brought up short by that, for the moment, insuperable obstacle, and this abrupt halt was immediately pounced upon by his second motive for concern, or, rather, three motives in one, the clay figurines, the Center, and the head of the buying department.
+v-2080723:This %dvēseles monologs% was brought up short by that, for the moment, insuperable obstacle, and this abrupt halt was immediately pounced upon by his second motive for concern, or, rather, three motives in one, the clay figurines, the Center, and the head of the buying department.
+v-2083138:This soliloquy was %pārsteigts/pārtraukts (i)% by that, for the moment, insuperable obstacle, and this abrupt halt was immediately pounced upon by his second motive for concern, or, rather, three motives in one, the clay figurines, the Center, and the head of the buying department.
+tag:cave
+com:p69
+@@
+id:2189744
+v:He keeps coming up with all kinds of lame excuses.
+v-2189643:He keeps %nākt klajā% all kinds of lame excuses.
+@@
+id:2147827
+v:Resistance had proved so futile that surrender was the only choice left.
+v-2147657:Resistance had proved so %bezjēdzīga% that surrender was the only choice left.
+com:https://www.merriam-webster.com/dictionary/futile
+@@
+id:2069657
+v:Software that is resilient is generally infrastructure agnostic.
+v-2069724:Software that is %spējīga ātri atjaunoties% is generally infrastructure agnostic.
+com:https://herman.bearblog.dev/building-software-to-last-forever/
+@@
+id:2054006
+v:They're travelling across Europe by train and are planning to end up in Moscow.
+v-2054932:They're travelling across Europe by train and are planning to %nonākt% in Moscow.
+com:https://dictionary.cambridge.org/dictionary/english/end-up
+@@
 id:2058142
 v:She hadn't meant to snap at her husband, but she'd had a bad day at work and had come home irritable.
 v-2058035:She hadn't meant to snap at her husband, but she'd had a bad day at work and had come home %aizkaitināma%.
@@ -41,7 +94,7 @@ v-2980329:Do you need the toilet right now or can you %ciesties, turēt% for a w
 @@
 id:2092544
 v:They would probably be most put out to learn that 'algor' means the intense cold one feels in one’s body before a fever sets in, and that 'gacho' is neither more nor less than the part of an ox’s neck on which the yoke rests.
-v-2092653:They would probably be most %uztraukti% to learn that 'algor' means the intense cold one feels in one’s body before a fever sets in, and that 'gacho' is neither more nor less than the part of an ox’s neck on which the yoke rests.
+v-2092653:They would probably be most %uztraukti (a)% to learn that 'algor' means the intense cold one feels in one’s body before a fever sets in, and that 'gacho' is neither more nor less than the part of an ox’s neck on which the yoke rests.
 v-2093557:They would probably be most put out to learn that 'algor' means the intense cold one feels in one’s body before a fever sets in, and that 'gacho' is neither more nor less than the part of an ox’s neck on which the %sakas% rests.
 tag:cave
 com:p1
@@ -164,7 +217,7 @@ com:p80
 @@
 id:2972705
 v:If you find things a bit tiring at first, you're entitled to four more days' recuperation and reorientation here without additional charge under the custodial contract.
-v-2999535:If you find things a bit tiring at first, you're %piešķirts% to four more days' recuperation and reorientation here without additional charge under the custodial contract.
+v-2999535:If you find things a bit tiring at first, you're %piešķirts, izpelnījies godu% to four more days' recuperation and reorientation here without additional charge under the custodial contract.
 v-2972929:If you find things a bit tiring at first, you're entitled to four more days' %atjaunošanās, atlabšana% and reorientation here without additional charge under the custodial contract.
 v-2999807:If you find things a bit tiring at first, you're entitled to four more days' recuperation and reorientation here without additional charge under the %(vecāku) uzraudzības% contract.
 tag:summer

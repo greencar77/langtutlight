@@ -1,5 +1,47 @@
 let sentencesYourDictionary = [
 {
+  "id": "6457676",
+  "v": "He provided details on the hotel, time and room number where the man allegedly stayed.",
+  "v-2000147": "He provided details on the hotel, time and room number where the man %% stayed.",
+  "tag": "s_yd",
+},
+{
+  "id": "1913246",
+  "v": "It was allegedly her translator and emitted a low-level hum similar to the walls.",
+  "v-2000147": "It was %% her translator and emitted a low-level hum similar to the walls.",
+  "tag": "s_yd",
+},
+{
+  "id": "9668028",
+  "v": "Of course—where he allegedly drowned.",
+  "v-2000147": "Of course—where he %% drowned.",
+  "tag": "s_yd",
+},
+{
+  "id": "4305942",
+  "v": "As president of the Iraqi National Olympic Committee, Uday allegedly tortures athletes for losing games.",
+  "v-2000147": "As president of the Iraqi National Olympic Committee, Uday %% tortures athletes for losing games.",
+  "tag": "s_yd",
+},
+{
+  "id": "7697649",
+  "v": "The room was allegedly the most comfortable Hell had to offer.",
+  "v-2000147": "The room was %% the most comfortable Hell had to offer.",
+  "tag": "s_yd",
+},
+{
+  "id": "2351338",
+  "v": "Maybe they blindfold him.",
+  "v-2000830": "Maybe they %% him.",
+  "tag": "s_yd",
+},
+{
+  "id": "3531667",
+  "v": "Blindfold each student, spin him in circles, and give him the opportunity to pin the mustache on the paper target.",
+  "v-2000830": "%% each student, spin him in circles, and give him the opportunity to pin the mustache on the paper target.",
+  "tag": "s_yd",
+},
+{
   "id": "2274892",
   "v": "Some people argue that individuals can help circumvent this cost by investing in their local farmers markets or community supported agriculture (CSA).",
   "v-2048501": "Some people argue that individuals can help %apiet, izvairīties% this cost by investing in their local farmers markets or community supported agriculture (CSA).",
