@@ -35,6 +35,8 @@ function getWords() {
 function nextQuestion() {
     answeredMode = false;
     showElement('showAnswerSection');
+    hideElement('analysis');
+    document.getElementById('analysis').textContent = '';
     hideElement('answerSection');
     hideElement('answerDetails');
 
@@ -77,6 +79,7 @@ function popQuestion() {
 function showAnswer() {
     answeredMode = true;
     hideElement('showAnswerSection');
+    showElement('analysis');
     showElement('answerSection');
     showElement('passedFailedSection');
     if (debugMode) {
@@ -95,30 +98,32 @@ function fillAdditionalInfo() {
     e = document.getElementById('answerId');
     e.textContent = question.id;
 
-    e = document.getElementById('questionWord');
-    e.innerHTML = wordLine(questionWord);
-
     e = document.getElementById('comment');
     e.innerHTML = question.com;
 
-    showOtherWords();
+    showAnalysis();
 }
 
-function showOtherWords() {
+function showAnalysis() {
+    let analysisEl = document.getElementById('analysis');
+
+    let wordListEl = document.createElement('ol');
+    let focusWordLi = document.createElement('li');
+    focusWordLi.innerHTML = wordLine(questionWord);
+    wordListEl.appendChild(focusWordLi);
     const otherWordSentences = Object.keys(question)
         .filter(s => s.startsWith('v-'))
         .map(v => v.substring(2))
         .filter(n => n != questionWord.id);
     if (otherWordSentences.length > 0) {
-        let div = document.getElementById('otherWords');
-        let ol = document.createElement('ol');
         for (const sentenceWordId of otherWordSentences) {
             let li = document.createElement('li');
             li.innerHTML = wordLine(wordMap.get(sentenceWordId));
-            ol.appendChild(li);
+            wordListEl.appendChild(li);
         }
-        div.appendChild(ol);
     }
+
+    analysisEl.appendChild(wordListEl);
 }
 
 function markPassed() {

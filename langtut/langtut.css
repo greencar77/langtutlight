@@ -45,3 +45,7 @@ button {
 .existingWord {
     color: lightgray;
 }
+
+.word {
+    font-weight: bold;
+}

@@ -114,7 +114,7 @@ function updateWordsFromBookSentence(words) {
 }
 
 function wordLine(word) {
-    return word.v
+    return '<span class="word">' + word.v + '</span>'
             + ' [' + word.id + ']'
             + ' (t=' + word.t + ')'
             + (word.tag? ' (tag=' + word.tag + ')' : '')
