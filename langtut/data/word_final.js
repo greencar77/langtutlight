@@ -618,7 +618,7 @@ let wordsFinal = [
 {
   "id": "2859906",
   "v": "lead",
-  "t": "noun",
+  "t": "n",
   "tag": "dome",
   "trans": "svins",
 },
@@ -744,6 +744,7 @@ let wordsFinal = [
   "trans": "uzķerties uz āķa",
   "t": "i",
   "tag": "dome",
+  "p": "-1",
 },
 {
   "id": "2806634",
