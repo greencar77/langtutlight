@@ -144,4 +144,11 @@ const wordFilters = [
             return !word.t;
         }
     },
+    {
+        "id": "invalid_type",
+        "title": "Invalid type",
+        "query": function(word) {
+            return !wordTypeMap.get(word.t);
+        }
+    },
 ];

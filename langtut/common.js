@@ -118,8 +118,8 @@ function updateWordsFromBookSentence(words) {
 function wordLine(word) {
     return '<span class="word">' + word.v + '</span>'
             + ' (' + (wordTypeMap.get(word.t)? wordTypeMap.get(word.t).name : 'undefined type')  + ')'
-            + (word.tag? ' (tag=' + word.tag + ')' : '')
-            + ' (p=' + word.p + ')'
+            + ' ' + getWordPriorityHtml(word)
+            + (word.tag? ' [' + word.tag + ']' : '')
             + ' (sentences=' + word.sentences.length + ')'
             + ' (translation=' + word.trans + ')'
             + (word.syn? ' ' + 'syn=' + wordMap.get(word.syn).v : '')
@@ -129,6 +129,19 @@ function wordLine(word) {
             + ' <a href="https://sentence.yourdictionary.com/' + word.v + '">[Web4]</a>'
             + ' [' + word.id + ']'
             ;
+}
+
+function getWordPriorityHtml(word) {
+    let priorityClass;
+    let priorityClassTitle;
+    switch (word.p) {
+    case '+1': priorityClass = 'plus'; priorityClassTitle = '+'; break;
+    case '0': priorityClass = 'average'; priorityClassTitle = '0'; break;
+    case '-1': priorityClass = 'minus'; priorityClassTitle = '-'; break;
+    default: priorityClass = 'plus'; priorityClassTitle = '+';
+    }
+
+    return '<span class="' + priorityClass + '">' + priorityClassTitle + '</span>';
 }
 
 function showElement(e) {

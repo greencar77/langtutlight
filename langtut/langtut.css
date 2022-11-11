@@ -49,3 +49,18 @@ button {
 .word {
     font-weight: bold;
 }
+
+.plus {
+    background-color: palegreen;
+    border-radius: 50%;
+}
+
+.average {
+    background-color: lightgray;
+    border-radius: 50%;
+}
+
+.minus {
+    background-color: salmon;
+    border-radius: 50%;
+}
