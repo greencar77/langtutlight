@@ -2,6 +2,7 @@
 
 let wordMap;
 let sentenceMap;
+let wordTypeMap;
 
 function prepareData() {
     words = words.concat(wordsFinal);
@@ -9,6 +10,7 @@ function prepareData() {
     sentences = sentences.concat(sentencesYourDictionary);
     wordMap = new Map(words.map(v => [v.id, v]));
     sentenceMap = new Map(sentences.map(v => [v.id, v]));
+    wordTypeMap = new Map(wordTypes.map(v => [v.id, v]));
 
     transformWordTags(wordMap);
     transformSentenceTags(sentenceMap);
@@ -115,8 +117,7 @@ function updateWordsFromBookSentence(words) {
 
 function wordLine(word) {
     return '<span class="word">' + word.v + '</span>'
-            + ' [' + word.id + ']'
-            + ' (t=' + word.t + ')'
+            + ' (' + (wordTypeMap.get(word.t)? wordTypeMap.get(word.t).name : 'undefined type')  + ')'
             + (word.tag? ' (tag=' + word.tag + ')' : '')
             + ' (p=' + word.p + ')'
             + ' (sentences=' + word.sentences.length + ')'
@@ -126,6 +127,7 @@ function wordLine(word) {
             + ' <a href="https://www.onelook.com/?w=' + word.v + '">[OL]</a>'
             + ' <a href="https://letonika.lv/groups/default.aspx?q=' + word.v + '&r=10331062&g=2">[LET]</a>'
             + ' <a href="https://sentence.yourdictionary.com/' + word.v + '">[Web4]</a>'
+            + ' [' + word.id + ']'
             ;
 }
 

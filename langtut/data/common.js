@@ -2,6 +2,37 @@
 
 const bookTag = ['dome', 'summer', 'cave'];
 
+const wordTypes = [
+    {
+        "id": "n",
+        "name": "noun",
+    },
+    {
+        "id": "a",
+        "name": "adjective",
+    },
+    {
+        "id": "v",
+        "name": "verb",
+    },
+    {
+        "id": "pv",
+        "name": "phrasal verb",
+    },
+    {
+        "id": "av",
+        "name": "adverb",
+    },
+    {
+        "id": "ph",
+        "name": "phrase",
+    },
+    {
+        "id": "i",
+        "name": "idiom",
+    },
+];
+
 const selections = [
     {
         "id": "all",
