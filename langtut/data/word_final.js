@@ -203,7 +203,7 @@ let wordsFinal = [
 {
   "id": "2008233",
   "v": "aft",
-  "t": "adjective",
+  "t": "a",
   "p": "+1",
   "trans": "kuģa vai lidm. pati aizmugure (stern)",
 },
@@ -611,7 +611,7 @@ let wordsFinal = [
 {
   "id": "2878741",
   "v": "amenity",
-  "t": "noun",
+  "t": "n",
   "trans": "kaut kas pievilcīgs, labums, ērtība",
   "p": "+1",
 },
