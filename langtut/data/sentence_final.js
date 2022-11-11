@@ -326,7 +326,7 @@ let sentencesFinal = [
 {
   "id": "2942309",
   "v": "She's trying to find a publisher who will take a chance on her book.",
-  "v-2942227": "She's trying to find a publisher who will %riskēs, dos iespēju% on her book.",
+  "v-2942227": "She's trying to find a publisher who will %riskēs, izmēģinās laimi% on her book.",
   "com": "https://www.merriam-webster.com/dictionary/take%20a%20chance",
 },
 {
