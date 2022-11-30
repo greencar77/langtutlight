@@ -224,3 +224,53 @@ id:1350826
 v:This ridge is thickly clothed with forests, chiefly beech.
 v-2859832:This %*% is thickly clothed with forests, chiefly beech.
 tag:s_yd
+@@
+id:6525378
+v:Given to cows in moderate quantity, they have been found to enhance both the yield and flavour of milk.
+v-2009719:Given to cows in moderate quantity, they have been found to %*% both the yield and flavour of milk.
+tag:s_yd
+@@
+id:5072010
+v:It would enhance the prospects of a second series.
+v-2009719:It would %*% the prospects of a second series.
+tag:s_yd
+@@
+id:2245797
+v:The outcome of his discoveries was, not only to perfect the geometrical plan of the solar system, but to enhance very materially the predicting power of astronomy.
+v-2009719:The outcome of his discoveries was, not only to perfect the geometrical plan of the solar system, but to %*% very materially the predicting power of astronomy.
+tag:s_yd
+@@
+id:7874677
+v:The effect of this was no doubt to enhance the sense generally entertained of the value of the four Gospels.
+v-2009719:The effect of this was no doubt to %*% the sense generally entertained of the value of the four Gospels.
+tag:s_yd
+@@
+id:2022882
+v:This will only enhance the day's events.
+v-2009719:This will only %*% the day's events.
+tag:s_yd
+@@
+id:8596891
+v:Mosaics are employed to decorate the spandrils of the arches.
+v-2059656:Mosaics are employed to %*% the spandrils of the arches.
+tag:s_yd
+@@
+id:4565330
+v:Carmen had been practicing with some basic equipment and managed to decorate a cake for Alex's birthday.
+v-2059656:Carmen had been practicing with some basic equipment and managed to %*% a cake for Alex's birthday.
+tag:s_yd
+@@
+id:6373076
+v:Bake a cake in the shape of a bunny and decorate it.
+v-2059656:Bake a cake in the shape of a bunny and %*% it.
+tag:s_yd
+@@
+id:3655332
+v:Alex and Jonathan wanted to help decorate, but there were some basic things that could be done.
+v-2059656:Alex and Jonathan wanted to help %*%, but there were some basic things that could be done.
+tag:s_yd
+@@
+id:8555837
+v:They will then decorate a spruce tree in the home.
+v-2059656:They will then %*% a spruce tree in the home.
+tag:s_yd
