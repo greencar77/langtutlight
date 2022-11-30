@@ -1,4 +1,56 @@
 @@
+id:2173657
+v:pulley
+t:n
+trans:trīsis
+@@
+id:2173243
+v:wedge
+t:n
+trans:ķīlis
+@@
+id:2157519
+v:dismal
+t:a
+trans:depresiju izraisošs
+p:+1
+@@
+id:2190843
+v:here you are
+t:ph
+trans: lūdzu! (dodot)
+p:+1
+@@
+id:2130009
+v:astray
+t:av
+p:+1
+trans:nost no ceļa
+@@
+id:2109327
+v:sheer
+t:a
+p:+1
+trans:(palielina pakāpi)
+@@
+id:2191351
+v:shove
+t:v
+p:+1
+trans:grūstīt
+@@
+id:2173636
+v:aspiring
+t:a
+trans:daudzsološs
+p:+1
+@@
+id:2114708
+v:snail
+t:n
+trans:gliemezis
+p:+1
+@@
 id:2070745
 v:transgress
 t:v

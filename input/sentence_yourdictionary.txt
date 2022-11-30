@@ -189,3 +189,38 @@ id:2173406
 v:The larvae are active and voracious little grub-like creatures (known in the United States as \"wrigglers\"), with large heads and jaws provided with a pair of brushes, which sweep food-particles into the mouth.
 v-2090727:The larvae are active and %*% little grub-like creatures (known in the United States as \"wrigglers\"), with large heads and jaws provided with a pair of brushes, which sweep food-particles into the mouth.
 tag:s_yd
+@@
+id:3631646
+v:They would have to walk along the ridge for a while to get there.
+v-2859832:They would have to walk along the %*% for a while to get there.
+tag:s_yd
+@@
+id:4365096
+v:In Asia it is found on the Caucasus, but does not pass the Ural ridge into Siberia.
+v-2859832:In Asia it is found on the Caucasus, but does not pass the Ural %grēda% into Siberia.
+tag:s_yd
+@@
+id:7184963
+v:This place may either be a point, as in a volcanic cone, or a line, as in a mountain range or ridge of hills.
+v-2859832:This place may either be a point, as in a volcanic cone, or a line, as in a mountain range or %*% of hills.
+tag:s_yd
+@@
+id:2091168
+v:The streets of Valletta, paved with stone, run along and across the ridge, and end on each side towards the water in steep flights of steps.
+v-2859832:The streets of Valletta, paved with stone, run along and across the %grēda%, and end on each side towards the water in steep flights of steps.
+tag:s_yd
+@@
+id:1249725
+v:That ridge was the only thing that had kept her from plunging over the edge... that and the man who was now glaring at her.
+v-2859832:That %*% was the only thing that had kept her from plunging over the edge... that and the man who was now glaring at her.
+tag:s_yd
+@@
+id:7103460
+v:This only means that the equipotential surfaces are crowded together, just as they are near the ridge of a house.
+v-2859832:This only means that the equipotential surfaces are crowded together, just as they are near the %*% of a house.
+tag:s_yd
+@@
+id:1350826
+v:This ridge is thickly clothed with forests, chiefly beech.
+v-2859832:This %*% is thickly clothed with forests, chiefly beech.
+tag:s_yd

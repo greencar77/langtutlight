@@ -1,4 +1,33 @@
 @@
+id:2173413
+v:The crowd formed itself into a wedge.
+v-2173243:The crowd formed itself into a %ķīlis%.
+@@
+id:2157226
+v:Without the encouragement of your father the world is a dismal place.
+v-2157519:Without the encouragement of your father the world is a %*% place.
+com:youtube - Things you must know as a father. J. Peterson
+@@
+id:2190044
+v:Here you go sir. I’m sure she will love these.
+v-2190843:%*% sir. I’m sure she will love these.
+@@
+id:2130145
+v:The money seems to have gone astray.
+v-2130009:The money seems to have gone %neceļos%.
+@@
+id:2191505
+v:The people pushed and shoved to get in line.
+v-2191351:The people pushed and %grūstījās% to get in line.
+@@
+id:2173750
+v:I knew him when he was an aspiring young law student.
+v-2173636:I knew him when he was an %*% young law student.
+@@
+id:2114809
+v:Therefore, we only excluded juvenile snails from the analysis to lessen the effects of the dynamics or local heterogeneity of host population on parasite prevalence.
+v-2114708:Therefore, we only excluded juvenile %gliemežus% from the analysis to lessen the effects of the dynamics or local heterogeneity of host population on parasite prevalence.
+@@
 id:2063325
 v:The head of the buying department did not respond immediately, he must have been considering whether it was worth amusing himself further with this kind of cat-and-mouse game, but his position on the Center's organization chart reminded him that the whole definition and maintenance of hierarchical configurations is based on their being scrupulously respected and never contravened or transgressed, and, of course, the inevitable result of being too free and easy with one's inferiors or subalterns is to undermine respect and to encourage license, or, to put it more explicitly and unambiguously, it all ends in insubordination, indiscipline and anarchy.
 v-2063254:The head of the buying department did not respond immediately, he must have been considering whether it was worth amusing himself further with this kind of cat-and-mouse game, but his position on the Center's organization chart reminded him that the whole definition and maintenance of hierarchical configurations is based on their being scrupulously respected and never %pretojās aizliegumam% or transgressed, and, of course, the inevitable result of being too free and easy with one's inferiors or subalterns is to undermine respect and to encourage license, or, to put it more explicitly and unambiguously, it all ends in insubordination, indiscipline and anarchy.
@@ -197,7 +226,7 @@ com:ch6 p86
 @@
 id:2974428
 v:On the other hand, borrowing money is like trying to swim with a brick in each hand...and a small loan is tougher to pay back than a million.
-v-2974650:On the other hand, borrowing money is like trying to swim with a brick in each hand...and a small loan is %grūtāk, 'cietāk'% to pay back than a million.
+v-2974650:On the other hand, borrowing money is like trying to swim with a brick in each hand...and a small loan is %skaudrāk% to pay back than a million.
 tag:summer
 com:p84
 @@
@@ -280,6 +309,7 @@ com:https://www.merriam-webster.com/dictionary/take%20a%20chance
 id:2936947
 v:What strikes home as the shuttle boat approaches the $5 billion megaresort being constructed off the coast of Dubai is its sheer audacity.
 v-2936210:What %līdzinās, izskatās kā% home as the shuttle boat approaches the $5 billion megaresort being constructed off the coast of Dubai is its sheer audacity.
+v-2109327:What strikes home as the shuttle boat approaches the $5 billion megaresort being constructed off the coast of Dubai is its %galēja% audacity.
 v-2936043:What strikes home as the shuttle boat approaches the $5 billion megaresort being constructed off the coast of Dubai is its sheer %uzdrošināšanās%.
 com:CNN - on artificial islands in Dubai
 @@
@@ -372,7 +402,7 @@ com:https://sentence.yourdictionary.com/residual
 @@
 id:2890158
 v:It didn't need another rinse, but she needed the time to contemplate before saying something she might regret.
-v-2890857:It didn't need another rinse, but she needed the time to %apdomāt% before saying something she might regret.
+v-2890857:It didn't need another rinse, but she needed the time to %apdomāt, paburties% before saying something she might regret.
 com:https://sentence.yourdictionary.com/contemplate
 @@
 id:2890004
@@ -406,6 +436,7 @@ com:p533
 id:2859045
 v:Life is as if you were traveling a ridge crest. —Theodore Roosevelt 
 v-2859832:Life is as if you were traveling a %kores% crest. —Theodore Roosevelt
+v-2108601:Life is as if you were traveling a ridge %pati augša%. —Theodore Roosevelt
 @@
 id:2854134
 v:The sea shimmered in the sunlight.
