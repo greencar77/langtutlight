@@ -1,5 +1,30 @@
 let wordsFinal = [
 {
+  "id": "2255759",
+  "v": "badly",
+  "t": "av",
+  "p": "+1",
+  "trans": "neapmierinoši",
+},
+{
+  "id": "2221110",
+  "v": "frantically",
+  "t": "av",
+  "p": "+1",
+},
+{
+  "id": "2106112",
+  "v": "hold back",
+  "t": "pv",
+  "p": "+1",
+},
+{
+  "id": "2109604",
+  "v": "wield",
+  "t": "v",
+  "trans": "efektīvi izmantot rīku, ieroci",
+},
+{
   "id": "2173657",
   "v": "pulley",
   "t": "n",
@@ -137,6 +162,7 @@ let wordsFinal = [
   "v": "decorate",
   "t": "v",
   "p": "-1",
+  "trans": "izgreznot, izdekorēt",
 },
 {
   "id": "2058035",

@@ -1,5 +1,20 @@
 let sentencesFinal = [
 {
+  "id": "2255842",
+  "v": "England have played badly this year.",
+  "v-2255759": "England have played %vāji, neapmierinoši% this year.",
+},
+{
+  "id": "2221248",
+  "v": "[Carlton] Fisk stood several feet down the line, frantically urging the ball fair with his hands. It hit the yellow foul pole above the wall, a home run. - Ron Fimrite",
+  "v-2221110": "[Carlton] Fisk stood several feet down the line, %haotiski, drudžaini% urging the ball fair with his hands. It hit the yellow foul pole above the wall, a home run. - Ron Fimrite",
+},
+{
+  "id": "2106301",
+  "v": "He held back, terrified of going into the dark room.",
+  "v-2106112": "He %nespēja rīkoties (pv), bija sasaistīts%, terrified of going into the dark room.",
+},
+{
   "id": "2173413",
   "v": "The crowd formed itself into a wedge.",
   "v-2173243": "The crowd formed itself into a %ķīlis%.",
@@ -139,6 +154,7 @@ let sentencesFinal = [
   "id": "2013920",
   "v": "He got up on his long legs, frantically wagging his tail, as if he were wielding a whip, and, for the first time since he had come seeking asylum, Found barked.",
   "v-2013304": "He got up on his long legs, %nervozi, saraustīti% wagging his tail, as if he were wielding a whip, and, for the first time since he had come seeking asylum, Found barked.",
+  "v-2109604": "He got up on his long legs, frantically wagging his tail, as if he were %*% a whip, and, for the first time since he had come seeking asylum, Found barked.",
   "tag": "cave",
 },
 {
