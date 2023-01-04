@@ -115,6 +115,8 @@ const selections = [
     },
 ];
 
+const allowedWordType = ['n', 'a', 'v', 'av', 'i', 'pv', 'ph'];
+
 const wordFilters = [
     {
         "id": "all",
@@ -148,7 +150,7 @@ const wordFilters = [
         "id": "invalid_type",
         "title": "Invalid type",
         "query": function(word) {
-            return !wordTypeMap.get(word.t);
+            return !wordTypeMap.get(word.t) || !allowedWordType.includes(word.t);
         }
     },
 ];
