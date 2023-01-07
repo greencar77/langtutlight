@@ -1,6 +1,6 @@
 "use strict";
 
-const bookTag = ['dome', 'summer', 'cave'];
+const bookTag = ['dome', 'summer', 'cave', 'zeitoun', 'lp_portugal'];
 
 const wordTypes = [
     {
@@ -79,6 +79,22 @@ const selections = [
         "query": function(word) {
             return word.sentences.length > 0
                 && word.tag && word.tag.includes('cave');
+        }
+    },
+    {
+        "id": "lp_portugal",
+        "title": "Book \"Lonely Planet Portugal\"",
+        "query": function(word) {
+            return word.sentences.length > 0
+                && word.tag && word.tag.includes('lp_portugal');
+        }
+    },
+    {
+        "id": "zeitoun",
+        "title": "Book \"Zeitoun\"",
+        "query": function(word) {
+            return word.sentences.length > 0
+                && word.tag && word.tag.includes('zeitoun');
         }
     },
     {
