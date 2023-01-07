@@ -11,14 +11,27 @@ function prepareData() {
     wordMap = new Map(words.map(v => [v.id, v]));
     sentenceMap = new Map(sentences.map(v => [v.id, v]));
     wordTypeMap = new Map(wordTypes.map(v => [v.id, v]));
+    books = new Map(books.map(v => [v.id, v]));
+    bookTag = Array.from(books.keys());
 
     transformWordTags(wordMap);
     transformSentenceTags(sentenceMap);
     extractSentenceWords(sentenceMap);
     updateWordsFromBookSentence(words);
     processSynonyms(wordMap);
+    selectionsFromBooks();
 
     checkIntegrity(words, sentences);
+}
+
+function selectionsFromBooks() {
+    books.forEach(b => {
+        let sel = {};
+        sel.id = b.id;
+        sel.title = 'Book ' + '"' + b.title + '"';
+        sel.query = w => w.sentences.length > 0 && w.tag && w.tag.includes(b.id);
+        selections.push(sel);
+    });
 }
 
 function extractSentenceWords(sentenceMap) {

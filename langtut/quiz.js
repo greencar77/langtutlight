@@ -56,6 +56,20 @@ function showQuestion() {
     qCount.textContent = questionCount;
 
     document.getElementById('otherWords').textContent = '';
+    if (question.com) {
+        let bookInfo = '';
+        if (question.tag) {
+            let bookTags = question.tag.filter(t => bookTag.includes(t));
+            if (bookTags.length > 0) {
+                bookInfo = books.get(bookTags[0]).title;
+            }
+        }
+        document.getElementById('questionExtras').innerHTML = '<br/>' + '<br/>'
+            + bookInfo
+            + ' ' + (question.tag? question.tag : '') /*+ ' ' + question.com*/;
+    } else {
+        document.getElementById('questionExtras').textContent = '';
+    }
 }
 
 function popQuestion() {

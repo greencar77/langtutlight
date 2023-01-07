@@ -1,6 +1,29 @@
 "use strict";
 
-const bookTag = ['dome', 'summer', 'cave', 'zeitoun', 'lp_portugal'];
+let books = [
+    {
+        "id": "dome",
+        "title": "Under the Dome",
+    },
+    {
+        "id": "summer",
+        "title": "The Door into Summer",
+    },
+    {
+        "id": "cave",
+        "title": "The Cave",
+    },
+    {
+        "id": "zeitoun",
+        "title": "Zeitoun",
+    },
+    {
+        "id": "lp_portugal",
+        "title": "Lonely Planet Portugal, 2011",
+    },
+];
+
+let bookTag = null;
 
 const wordTypes = [
     {
@@ -55,46 +78,6 @@ const selections = [
         "query": function(word) {
             return word.sentences.length > 0
                 && word.t && word.t == 'i';
-        }
-    },
-    {
-        "id": "dome",
-        "title": "Book \"Under the Dome\"",
-        "query": function(word) {
-            return word.sentences.length > 0
-                && word.tag && word.tag.includes('dome');
-        }
-    },
-    {
-        "id": "summer",
-        "title": "Book \"The Door into Summer\"",
-        "query": function(word) {
-            return word.sentences.length > 0
-                && word.tag && word.tag.includes('summer');
-        }
-    },
-    {
-        "id": "cave",
-        "title": "Book \"The Cave\"",
-        "query": function(word) {
-            return word.sentences.length > 0
-                && word.tag && word.tag.includes('cave');
-        }
-    },
-    {
-        "id": "lp_portugal",
-        "title": "Book \"Lonely Planet Portugal\"",
-        "query": function(word) {
-            return word.sentences.length > 0
-                && word.tag && word.tag.includes('lp_portugal');
-        }
-    },
-    {
-        "id": "zeitoun",
-        "title": "Book \"Zeitoun\"",
-        "query": function(word) {
-            return word.sentences.length > 0
-                && word.tag && word.tag.includes('zeitoun');
         }
     },
     {
