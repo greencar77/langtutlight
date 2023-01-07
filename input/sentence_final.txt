@@ -16,7 +16,7 @@ id:3151416
 v:The face of the Rio Douro always changes. One day it's deeply grooved, folding and rippling in swells.
 v-3151827:The face of the Rio Douro always changes. One day it's deeply grooved, folding and %viļņojas maziem vilnīšiem% in swells.
 tag:lp_portugal
-com:Lonely Planet Portugal 2011, p357
+com:p357
 @@
 id:3112855
 v:Part of him had given up, and the part that still believed stood apart from the broken half of his soul, incredulous.
