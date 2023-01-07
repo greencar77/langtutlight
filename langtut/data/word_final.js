@@ -1,5 +1,35 @@
 let wordsFinal = [
 {
+  "id": "3160434",
+  "v": "lurk",
+  "t": "v",
+  "trans": "snauž (priekšmets)",
+},
+{
+  "id": "3160227",
+  "v": "mingle",
+  "t": "v",
+  "trans": "sajaukties",
+},
+{
+  "id": "3151827",
+  "v": "ripple",
+  "t": "v",
+  "trans": "viļņoties maziem vilnīšiem, krokoties",
+  "p": "+1",
+},
+{
+  "id": "3112751",
+  "v": "incredulous",
+  "t": "a",
+},
+{
+  "id": "2108601",
+  "v": "crest",
+  "t": "n",
+  "trans": "pušķītis, pati augša",
+},
+{
   "id": "2255759",
   "v": "badly",
   "t": "av",
@@ -500,6 +530,7 @@ let wordsFinal = [
   "t": "v",
   "trans": "piepūsts ar gaisu",
   "tag": "catch22",
+  "p": "-1",
 },
 {
   "id": "2913212",

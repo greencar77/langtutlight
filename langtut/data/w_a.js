@@ -1,7 +1,8 @@
 let words = [
 {
-  "id": "2108601",
-  "v": "crest",
+  "id": "3170242",
+  "v": "rafter",
   "t": "n",
-  "trans": "pušķītis, pati augša",
+  "trans": "slīpa jumta sija",
+  "p": "+1",
 }];

@@ -1,4 +1,34 @@
 @@
+id:3160647
+v:Livraria Lello - Even if you're not after books, don't miss this 1906 neo-Gothic confection that's stacked to the rafters with new, second-hand and rare books.
+v-3170242:Livraria Lello - Even if you're not after books, don't miss this 1906 neo-Gothic confection that's stacked to the %*% with new, second-hand and rare books.
+tag:lp_portugal
+com:p379
+@@
+id:316072
+v:Porto's historic centre is the Ribeira district, a Unesco World Heritage Site where _tripeiros_ (Porto residents) mingle before old storefronts, on village-style plazas and in the old houses of commerce where Roman ruins lurk beneath the foundations.
+v-3160227:Porto's historic centre is the Ribeira district, a Unesco World Heritage Site where _tripeiros_ (Porto residents) %*% before old storefronts, on village-style plazas and in the old houses of commerce where Roman ruins lurk beneath the foundations.
+v-3160434:Porto's historic centre is the Ribeira district, a Unesco World Heritage Site where _tripeiros_ (Porto residents) mingle before old storefronts, on village-style plazas and in the old houses of commerce where Roman ruins %*% beneath the foundations.
+tag:lp_portugal
+com:p359
+@@
+id:3151416
+v:The face of the Rio Douro always changes. One day it's deeply grooved, folding and rippling in swells.
+v-3151827:The face of the Rio Douro always changes. One day it's deeply grooved, folding and %viļņojas maziem vilnīšiem% in swells.
+tag:lp_portugal
+com:Lonely Planet Portugal 2011, p357
+@@
+id:3112855
+v:Part of him had given up, and the part that still believed stood apart from the broken half of his soul, incredulous.
+v-3112751:Part of him had given up, and the part that still believed stood apart from the broken half of his soul, %nespējīgs noticēt%.
+tag:zeitoun
+com:p210
+@@
+id:2173742
+v:Some challenging pulls can require re-rigging your pulley multiple times to change angles slowly.
+v-2173657:Some challenging pulls can require re-rigging your %trīsi% multiple times to change angles slowly.
+com: Wes Siler, Outside Online, 28 Sep. 2022, merriam-webster
+@@
 id:2255842
 v:England have played badly this year.
 v-2255759:England have played %vāji, neapmierinoši% this year.
@@ -166,7 +196,7 @@ v-2053204:He %samīcīja% a lump of clay for his daughter, but he did not give t
 v-2053605:He kneaded a lump of clay for his daughter, but he did not give the task the scrupulous attention he had %šķieda, nežēloja% on the kiln, in fact, he made such a botched job of it that Marta, behind his back, had to knead it again to get rid of the lumps.
 v-2060251:He kneaded a lump of clay for his daughter, but he did not give the task the scrupulous attention he had lavished on the %apdedzināšanas krāsns%, in fact, he made such a botched job of it that Marta, behind his back, had to knead it again to get rid of the lumps.
 v-2053547:He kneaded a lump of clay for his daughter, but he did not give the task the scrupulous attention he had lavished on the kiln, in fact, he made such a %paviršs% job of it that Marta, behind his back, had to knead it again to get rid of the lumps.
-v-2060615:He kneaded a lump of clay for his daughter, but he did not give the task the scrupulous attention he had lavished on the kiln, in fact, he made such a botched job of it that Marta, behind his back, had to knead it again to get rid of the %krikumiem%.
+v-2060615:He kneaded a %krikumu% of clay for his daughter, but he did not give the task the scrupulous attention he had lavished on the kiln, in fact, he made such a botched job of it that Marta, behind his back, had to knead it again to get rid of the %krikumiem%.
 tag:cave
 com:p32
 @@
