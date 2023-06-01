@@ -20,6 +20,13 @@ function getWords() {
 
 function showWords(words) {
     let main = document.getElementById('main');
+    if (words.length == 0) {
+        let span = document.createElement('span');
+        span.textContent = 'No words'
+        main.appendChild(span);
+        return;
+    }
+
     let ol = document.createElement('ol');
 
     let wordsOrdered = Array.from(words);

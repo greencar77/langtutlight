@@ -48,7 +48,8 @@ function showQuestion() {
     let e = document.getElementById('question');
     let questionString = question["v-" + questionWord.id];
     questionString = questionString.replaceAll(/%%/g, '%?%');
-    questionString = questionString.replaceAll(/%(\**?)%/g, '<span class="hidden">' + '(' + questionWord.trans + ')' + '</span>');
+    let hint = questionWord.trans? questionWord.trans : (questionWord.ex? questionWord.ex: '');
+    questionString = questionString.replaceAll(/%(\**?)%/g, '<span class="hidden">' + '(' + hint + ')' + '</span>');
     questionString = questionString.replaceAll(/%(.*?)%/g, '<span class="hidden">$1</span>');
     e.innerHTML = questionString;
 
@@ -64,9 +65,11 @@ function showQuestion() {
                 bookInfo = books.get(bookTags[0]).title;
             }
         }
-        document.getElementById('questionExtras').innerHTML = '<br/>' + '<br/>'
-            + bookInfo
-            + ' ' + (question.tag? question.tag : '') /*+ ' ' + question.com*/;
+        if (bookInfo || question.tag) {
+            document.getElementById('questionExtras').innerHTML = '<br/>' + '<br/>'
+                + bookInfo
+                + ' [' + (question.tag? question.tag : '') + ']' /*+ ' ' + question.com*/;
+        }
     } else {
         document.getElementById('questionExtras').textContent = '';
     }
