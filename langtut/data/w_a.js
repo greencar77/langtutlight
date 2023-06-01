@@ -1,8 +1,8 @@
 let words = [
 {
-  "id": "3170242",
-  "v": "rafter",
-  "t": "n",
-  "trans": "slīpa jumta sija",
-  "p": "+1",
+  "id": "3513100",
+  "v": "indulge",
+  "t": "v",
+  "ex": "allow oneself to enjoy the pleasure of",
+  "trans": "ļauties kārdinājumam",
 }];

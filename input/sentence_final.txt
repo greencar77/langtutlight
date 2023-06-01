@@ -1,4 +1,49 @@
 @@
+id:3516524
+v:With an ordinary car, you lose the element of drudgery, and that's fundamental to the whole experience.
+v-2912310:With an ordinary car, you lose the element of %*%, and that's fundamental to the whole experience.
+tag:brfollies
+com:p31
+@@
+id:3502427
+v:How was a man to think in the midst of all that clamor?
+v-3502635:How was a man to think in the midst of all that %*%?
+tag:brfollies
+com:p16
+@@
+id:3502551
+v:I have rattled on for a dozen pages, but until now my sole object has been to introduce myself to the reader and set the scene for the story I am about to tell.
+v-3502510:I have %kladzinājis% for a dozen pages, but until now my sole object has been to introduce myself to the reader and set the scene for the story I am about to tell.
+tag:brfollies
+com:p12
+@@
+id:3508937
+v:Mary surreptitiously slipped from the room.
+v-3508808:Mary %*% slipped from the room.
+@@
+id:3155629
+v:Manifold examples of her work have been preserved in the city archives.
+v-3155346:%mudžeklis% examples of her work have been preserved in the city archives.
+@@
+id:3183507
+v:No matter what kind of software you’re developing, you most definitely leverage logging to some extent, probably every single day.
+v-3193308:No matter what kind of software you’re developing, you most definitely %ekspluatēt% logging to some extent, probably every single day.
+com:https://www.16elt.com/2023/01/06/logging-practices-I-follow/
+@@
+id:3170739
+v:The pickpocket dodged through the crowd.
+v-2820258:The pickpocket %ložņāja% through the crowd.
+com:https://mnemonicdictionary.com/word/dodge
+@@
+id:3174506
+v:I took the liberty of checking out a few convalescent homes for him.
+v-3174434:I %atļāvos% of checking out a few convalescent homes for him.
+@@
+id:3117716
+v:He is solely responsible for any debts the company may incur.
+v-3117615:He is %viens pats% responsible for any debts the company may incur.
+com:Google meaning
+@@
 id:3160647
 v:Livraria Lello - Even if you're not after books, don't miss this 1906 neo-Gothic confection that's stacked to the rafters with new, second-hand and rare books.
 v-3170242:Livraria Lello - Even if you're not after books, don't miss this 1906 neo-Gothic confection that's stacked to the %*% with new, second-hand and rare books.

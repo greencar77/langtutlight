@@ -21,6 +21,10 @@ let books = [
         "id": "lp_portugal",
         "title": "Lonely Planet Portugal, 2011",
     },
+    {
+        "id": "brfollies",
+        "title": "The Brooklyn Follies",
+    },
 ];
 
 let bookTag = null;

@@ -1,4 +1,60 @@
 @@
+id:3513842
+v:dalliance
+t:n
+ex:a casual romantic or sexual relationship
+@@
+id:3513518
+v:romp
+t:n
+trans:kopošanās
+@@
+id:3502635
+v:clamor
+t:n
+ex:a loud and confused noise, especially that of people shouting
+@@
+id:3502510
+v:rattle on
+t:pv
+ex:talk rapidly and at length, especially in an inane way
+@@
+id:3508808
+v:surreptitiously
+t:av
+ex:in a way that attempts to avoid notice or attention; secretively
+@@
+id:3519226
+v:folly
+t:n
+trans:tukšpauris
+@@
+id:3155346
+v:manifold
+t:n
+trans:mudžeklis, savienotu punktu kopa
+@@
+id:3193308
+v:leverage
+t:v
+trans:maksimāli izmantot
+@@
+id:3170242
+v:rafter
+t:n
+trans:slīpa jumta sija
+p:+1
+@@
+id:3174434
+v:take the liberty
+t:ph
+p:+1
+@@
+id:3117615
+v:solely
+t:av
+p:+1
+@@
 id:3160434
 v:lurk
 t:v
