@@ -1,9 +1,16 @@
 let wordsFinal = [
 {
+  "id": "3629347",
+  "v": "triage",
+  "t": "n",
+  "ex": "the preliminary assessment of patients or casualties in order to determine the urgency of their need for treatment and the nature of treatment required",
+},
+{
   "id": "3513842",
   "v": "dalliance",
   "t": "n",
   "ex": "a casual romantic or sexual relationship",
+  "trans": "sānsolis (attiecībās)",
 },
 {
   "id": "3513518",
@@ -125,7 +132,7 @@ let wordsFinal = [
   "id": "2173657",
   "v": "pulley",
   "t": "n",
-  "trans": "trīsis",
+  "trans": "trīsis /ˈpʊli/",
 },
 {
   "id": "2173243",
@@ -755,7 +762,7 @@ let wordsFinal = [
   "id": "2827013",
   "v": "solemn",
   "t": "a",
-  "trans": "nopietna apņēmība",
+  "trans": "svinīgs",
   "p": "+1",
 },
 {

@@ -1,5 +1,11 @@
 let sentencesFinal = [
 {
+  "id": "3629428",
+  "v": "The clinic will be dedicated to the triage and treatment of patients with respiratory illnesses.",
+  "v-3629347": "The clinic will be dedicated to the %*% and treatment of patients with respiratory illnesses.",
+  "tag": "g",
+},
+{
   "id": "3516524",
   "v": "With an ordinary car, you lose the element of drudgery, and that's fundamental to the whole experience.",
   "v-2912310": "With an ordinary car, you lose the element of %*%, and that's fundamental to the whole experience.",
@@ -221,7 +227,7 @@ let sentencesFinal = [
 {
   "id": "2053118",
   "v": "Peacocks strut through the grounds.",
-  "v-2053918": "Peacocks strut through the grounds.",
+  "v-2053918": "Peacocks %stīvi soļo% through the grounds.",
 },
 {
   "id": "2043443",
@@ -572,7 +578,7 @@ let sentencesFinal = [
 {
   "id": "2827122",
   "v": "The bodies of Burke and Wills were recovered and brought to Melbourne for a solemn public funeral, and a noble monument has been erected to their honour.",
-  "v-2827013": "The bodies of Burke and Wills were recovered and brought to Melbourne for a %nopietna apņēmība% public funeral, and a noble monument has been erected to their honour.",
+  "v-2827013": "The bodies of Burke and Wills were recovered and brought to Melbourne for a %*% public funeral, and a noble monument has been erected to their honour.",
   "com": "https://sentence.yourdictionary.com/solemn",
 },
 {
