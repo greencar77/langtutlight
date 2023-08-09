@@ -68,7 +68,7 @@ function showQuestion() {
         if (bookInfo || question.tag) {
             document.getElementById('questionExtras').innerHTML = '<br/>' + '<br/>'
                 + bookInfo
-                + ' [' + (question.tag? question.tag : '') + ']' /*+ ' ' + question.com*/;
+                + ' [' + (question.tag? question.tag : '') + ']';
         } else {
             document.getElementById('questionExtras').textContent = '';
         }
